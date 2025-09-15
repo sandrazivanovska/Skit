@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1757963937286,54,POST /pettypes (create pettype),201,,Thread Group 1-1,text,true,,480,210,1,1,http://localhost:9966/petclinic/api/pettypes,50,0,35
+1757963937378,9,GET /pettypes (get all pettypes),200,,Thread Group 1-1,text,true,,597,134,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963937387,9,GET /pettypes/{petTypeId},200,,Thread Group 1-1,text,true,,453,136,1,1,http://localhost:9966/petclinic/api/pettypes/8,8,0,0
+1757963937397,11,PUT /pettypes/{petTypeId},204,,Thread Group 1-1,text,true,,393,233,1,1,http://localhost:9966/petclinic/api/pettypes/8,0,0,0
+1757963937409,14,DELETE /pettypes/{petTypeId},204,,Thread Group 1-1,,true,,361,222,1,1,http://localhost:9966/petclinic/api/pettypes/8,0,0,0
+1757963937424,7,POST /specialties (create specialty),201,,Thread Group 1-1,text,true,,489,217,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963937432,8,GET /specialties (get all specialties),200,,Thread Group 1-1,text,true,,543,137,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963937440,7,GET /specialties/{specialtyId},200,,Thread Group 1-1,text,true,,459,139,1,1,http://localhost:9966/petclinic/api/specialties/5,6,0,0
+1757963937447,11,PUT /specialties/{specialtyId},204,,Thread Group 1-1,text,true,,393,238,1,1,http://localhost:9966/petclinic/api/specialties/5,0,0,0
+1757963937459,11,DELETE  /specialties/{specialtyId},204,,Thread Group 1-1,,true,,361,225,1,1,http://localhost:9966/petclinic/api/specialties/5,0,0,0
+1757963937470,8,POST /pettypes (create pettype),201,,Thread Group 1-1,text,true,,480,210,1,1,http://localhost:9966/petclinic/api/pettypes,7,0,0
+1757963937479,8,GET /pettypes (get all pettypes),200,,Thread Group 1-1,text,true,,597,134,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963937488,7,GET /pettypes/{petTypeId},200,,Thread Group 1-1,text,true,,453,136,1,1,http://localhost:9966/petclinic/api/pettypes/9,7,0,0
+1757963937496,10,PUT /pettypes/{petTypeId},204,,Thread Group 1-1,text,true,,393,233,1,1,http://localhost:9966/petclinic/api/pettypes/9,0,0,0
+1757963937506,13,DELETE /pettypes/{petTypeId},204,,Thread Group 1-1,,true,,361,222,1,1,http://localhost:9966/petclinic/api/pettypes/9,0,0,0
+1757963937520,10,POST /specialties (create specialty),201,,Thread Group 1-1,text,true,,489,217,1,1,http://localhost:9966/petclinic/api/specialties,9,0,0
+1757963937531,11,GET /specialties (get all specialties),200,,Thread Group 1-1,text,true,,543,137,1,1,http://localhost:9966/petclinic/api/specialties,10,0,0
+1757963937542,8,GET /specialties/{specialtyId},200,,Thread Group 1-1,text,true,,459,139,1,1,http://localhost:9966/petclinic/api/specialties/6,8,0,0
+1757963937551,11,PUT /specialties/{specialtyId},204,,Thread Group 1-1,text,true,,393,238,1,1,http://localhost:9966/petclinic/api/specialties/6,0,0,0
+1757963937562,10,DELETE  /specialties/{specialtyId},204,,Thread Group 1-1,,true,,361,225,1,1,http://localhost:9966/petclinic/api/specialties/6,0,0,0
+1757963937573,7,POST /pettypes (create pettype),201,,Thread Group 1-1,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,7,0,0
+1757963937581,9,GET /pettypes (get all pettypes),200,,Thread Group 1-1,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963937590,10,GET /pettypes/{petTypeId},200,,Thread Group 1-1,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/10,9,0,0
+1757963937600,10,PUT /pettypes/{petTypeId},204,,Thread Group 1-1,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/10,0,0,0
+1757963937611,12,DELETE /pettypes/{petTypeId},204,,Thread Group 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/10,0,0,0
+1757963937624,8,POST /specialties (create specialty),201,,Thread Group 1-1,text,true,,489,217,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963937632,7,GET /specialties (get all specialties),200,,Thread Group 1-1,text,true,,543,137,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963937640,7,GET /specialties/{specialtyId},200,,Thread Group 1-1,text,true,,459,139,1,1,http://localhost:9966/petclinic/api/specialties/7,6,0,0
+1757963937647,9,PUT /specialties/{specialtyId},204,,Thread Group 1-1,text,true,,393,238,1,1,http://localhost:9966/petclinic/api/specialties/7,0,0,0
+1757963937657,11,DELETE  /specialties/{specialtyId},204,,Thread Group 1-1,,true,,361,225,1,1,http://localhost:9966/petclinic/api/specialties/7,0,0,0
+1757963937669,7,POST /pettypes (create pettype),201,,Thread Group 1-1,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,7,0,0
+1757963937676,7,GET /pettypes (get all pettypes),200,,Thread Group 1-1,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,7,0,0
+1757963937684,7,GET /pettypes/{petTypeId},200,,Thread Group 1-1,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/11,7,0,0
+1757963937692,9,PUT /pettypes/{petTypeId},204,,Thread Group 1-1,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/11,0,0,0
+1757963937702,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/11,0,0,0
+1757963937714,9,POST /specialties (create specialty),201,,Thread Group 1-1,text,true,,489,217,1,1,http://localhost:9966/petclinic/api/specialties,8,0,0
+1757963937723,7,GET /specialties (get all specialties),200,,Thread Group 1-1,text,true,,543,137,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963937731,6,GET /specialties/{specialtyId},200,,Thread Group 1-1,text,true,,459,139,1,1,http://localhost:9966/petclinic/api/specialties/8,6,0,0
+1757963937738,10,PUT /specialties/{specialtyId},204,,Thread Group 1-1,text,true,,393,238,1,1,http://localhost:9966/petclinic/api/specialties/8,0,0,0
+1757963937749,9,DELETE  /specialties/{specialtyId},204,,Thread Group 1-1,,true,,361,225,1,1,http://localhost:9966/petclinic/api/specialties/8,0,0,0
+1757963937759,6,POST /pettypes (create pettype),201,,Thread Group 1-1,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963937766,12,GET /pettypes (get all pettypes),200,,Thread Group 1-1,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,11,0,0
+1757963937778,9,GET /pettypes/{petTypeId},200,,Thread Group 1-1,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/12,8,0,0
+1757963937788,11,PUT /pettypes/{petTypeId},204,,Thread Group 1-1,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/12,0,0,0
+1757963937799,12,DELETE /pettypes/{petTypeId},204,,Thread Group 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/12,0,0,0
+1757963937812,7,POST /specialties (create specialty),201,,Thread Group 1-1,text,true,,489,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963937819,6,GET /specialties (get all specialties),200,,Thread Group 1-1,text,true,,543,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963937825,7,GET /specialties/{specialtyId},200,,Thread Group 1-1,text,true,,459,139,1,1,http://localhost:9966/petclinic/api/specialties/9,6,0,0
+1757963937832,9,PUT /specialties/{specialtyId},204,,Thread Group 1-1,text,true,,393,238,1,1,http://localhost:9966/petclinic/api/specialties/9,0,0,0
+1757963937842,10,DELETE  /specialties/{specialtyId},204,,Thread Group 1-1,,true,,361,225,1,1,http://localhost:9966/petclinic/api/specialties/9,0,0,0
+1757963943151,7,POST /pettypes (create pettype),201,,Thread Group 1-2,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943162,9,GET /pettypes (get all pettypes),200,,Thread Group 1-2,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963943171,6,GET /pettypes/{petTypeId},200,,Thread Group 1-2,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/13,5,0,0
+1757963943177,11,PUT /pettypes/{petTypeId},204,,Thread Group 1-2,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/13,0,0,0
+1757963943189,12,DELETE /pettypes/{petTypeId},204,,Thread Group 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/13,0,0,0
+1757963943201,8,POST /specialties (create specialty),201,,Thread Group 1-2,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,8,0,0
+1757963943212,7,GET /specialties (get all specialties),200,,Thread Group 1-2,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963943219,7,GET /specialties/{specialtyId},200,,Thread Group 1-2,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/10,7,0,0
+1757963943227,9,PUT /specialties/{specialtyId},204,,Thread Group 1-2,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/10,0,0,0
+1757963943236,11,DELETE  /specialties/{specialtyId},204,,Thread Group 1-2,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/10,0,0,0
+1757963943248,6,POST /pettypes (create pettype),201,,Thread Group 1-2,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943255,6,GET /pettypes (get all pettypes),200,,Thread Group 1-2,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943262,6,GET /pettypes/{petTypeId},200,,Thread Group 1-2,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/14,6,0,0
+1757963943269,11,PUT /pettypes/{petTypeId},204,,Thread Group 1-2,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/14,0,0,0
+1757963943281,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/14,0,0,0
+1757963943293,7,POST /specialties (create specialty),201,,Thread Group 1-2,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963943301,6,GET /specialties (get all specialties),200,,Thread Group 1-2,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963943308,7,GET /specialties/{specialtyId},200,,Thread Group 1-2,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/11,7,0,0
+1757963943316,10,PUT /specialties/{specialtyId},204,,Thread Group 1-2,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/11,0,0,0
+1757963943327,11,DELETE  /specialties/{specialtyId},204,,Thread Group 1-2,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/11,0,0,0
+1757963943339,6,POST /pettypes (create pettype),201,,Thread Group 1-2,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943346,6,GET /pettypes (get all pettypes),200,,Thread Group 1-2,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943353,5,GET /pettypes/{petTypeId},200,,Thread Group 1-2,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/15,4,0,0
+1757963943359,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-2,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/15,0,0,0
+1757963943367,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/15,0,0,0
+1757963943379,8,POST /specialties (create specialty),201,,Thread Group 1-2,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,8,0,0
+1757963943388,6,GET /specialties (get all specialties),200,,Thread Group 1-2,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963943394,5,GET /specialties/{specialtyId},200,,Thread Group 1-2,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/12,5,0,0
+1757963943400,8,PUT /specialties/{specialtyId},204,,Thread Group 1-2,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/12,0,0,0
+1757963943408,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-2,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/12,0,0,0
+1757963943417,6,POST /pettypes (create pettype),201,,Thread Group 1-2,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943424,7,GET /pettypes (get all pettypes),200,,Thread Group 1-2,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943431,5,GET /pettypes/{petTypeId},200,,Thread Group 1-2,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/16,5,0,0
+1757963943436,8,PUT /pettypes/{petTypeId},204,,Thread Group 1-2,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/16,0,0,0
+1757963943444,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/16,0,0,0
+1757963943456,5,POST /specialties (create specialty),201,,Thread Group 1-2,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963943462,5,GET /specialties (get all specialties),200,,Thread Group 1-2,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963943467,4,GET /specialties/{specialtyId},200,,Thread Group 1-2,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/13,4,0,0
+1757963943472,8,PUT /specialties/{specialtyId},204,,Thread Group 1-2,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/13,0,0,0
+1757963943481,9,DELETE  /specialties/{specialtyId},204,,Thread Group 1-2,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/13,0,0,0
+1757963943490,6,POST /pettypes (create pettype),201,,Thread Group 1-2,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943497,6,GET /pettypes (get all pettypes),200,,Thread Group 1-2,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963943504,5,GET /pettypes/{petTypeId},200,,Thread Group 1-2,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/17,5,0,0
+1757963943510,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-2,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/17,0,0,0
+1757963943518,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/17,0,0,0
+1757963943527,6,POST /specialties (create specialty),201,,Thread Group 1-2,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963943534,8,GET /specialties (get all specialties),200,,Thread Group 1-2,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963943542,6,GET /specialties/{specialtyId},200,,Thread Group 1-2,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/14,5,0,0
+1757963943548,8,PUT /specialties/{specialtyId},204,,Thread Group 1-2,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/14,0,0,0
+1757963943556,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-2,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/14,0,0,0
+1757963949155,6,POST /pettypes (create pettype),201,,Thread Group 1-3,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963949161,7,GET /pettypes (get all pettypes),200,,Thread Group 1-3,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963949168,6,GET /pettypes/{petTypeId},200,,Thread Group 1-3,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/18,5,0,0
+1757963949174,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-3,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/18,0,0,0
+1757963949182,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/18,0,0,0
+1757963949192,6,POST /specialties (create specialty),201,,Thread Group 1-3,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963949199,5,GET /specialties (get all specialties),200,,Thread Group 1-3,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963949205,5,GET /specialties/{specialtyId},200,,Thread Group 1-3,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/15,4,0,0
+1757963949210,7,PUT /specialties/{specialtyId},204,,Thread Group 1-3,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/15,0,0,0
+1757963949217,10,DELETE  /specialties/{specialtyId},204,,Thread Group 1-3,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/15,0,0,0
+1757963949227,6,POST /pettypes (create pettype),201,,Thread Group 1-3,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963949233,8,GET /pettypes (get all pettypes),200,,Thread Group 1-3,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963949242,5,GET /pettypes/{petTypeId},200,,Thread Group 1-3,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/19,5,0,0
+1757963949248,8,PUT /pettypes/{petTypeId},204,,Thread Group 1-3,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/19,0,0,0
+1757963949257,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/19,0,0,0
+1757963949269,6,POST /specialties (create specialty),201,,Thread Group 1-3,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963949277,12,GET /specialties (get all specialties),200,,Thread Group 1-3,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,11,0,0
+1757963949290,30,GET /specialties/{specialtyId},200,,Thread Group 1-3,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/16,27,0,0
+1757963949321,36,PUT /specialties/{specialtyId},204,,Thread Group 1-3,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/16,0,0,0
+1757963949358,12,DELETE  /specialties/{specialtyId},204,,Thread Group 1-3,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/16,0,0,0
+1757963949371,9,POST /pettypes (create pettype),201,,Thread Group 1-3,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963949380,7,GET /pettypes (get all pettypes),200,,Thread Group 1-3,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963949387,5,GET /pettypes/{petTypeId},200,,Thread Group 1-3,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/20,5,0,0
+1757963949393,10,PUT /pettypes/{petTypeId},204,,Thread Group 1-3,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/20,0,0,0
+1757963949403,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/20,0,0,0
+1757963949415,7,POST /specialties (create specialty),201,,Thread Group 1-3,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963949423,6,GET /specialties (get all specialties),200,,Thread Group 1-3,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963949430,5,GET /specialties/{specialtyId},200,,Thread Group 1-3,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/17,5,0,0
+1757963949436,8,PUT /specialties/{specialtyId},204,,Thread Group 1-3,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/17,0,0,0
+1757963949444,10,DELETE  /specialties/{specialtyId},204,,Thread Group 1-3,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/17,0,0,0
+1757963949455,6,POST /pettypes (create pettype),201,,Thread Group 1-3,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963949462,6,GET /pettypes (get all pettypes),200,,Thread Group 1-3,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963949468,6,GET /pettypes/{petTypeId},200,,Thread Group 1-3,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/21,6,0,0
+1757963949474,9,PUT /pettypes/{petTypeId},204,,Thread Group 1-3,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/21,0,0,0
+1757963949484,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/21,0,0,0
+1757963949494,6,POST /specialties (create specialty),201,,Thread Group 1-3,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963949500,6,GET /specialties (get all specialties),200,,Thread Group 1-3,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963949507,4,GET /specialties/{specialtyId},200,,Thread Group 1-3,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/18,4,0,0
+1757963949512,8,PUT /specialties/{specialtyId},204,,Thread Group 1-3,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/18,0,0,0
+1757963949520,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-3,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/18,0,0,0
+1757963949528,6,POST /pettypes (create pettype),201,,Thread Group 1-3,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963949535,5,GET /pettypes (get all pettypes),200,,Thread Group 1-3,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963949540,4,GET /pettypes/{petTypeId},200,,Thread Group 1-3,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/22,4,0,0
+1757963949545,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-3,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/22,0,0,0
+1757963949552,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/22,0,0,0
+1757963949562,5,POST /specialties (create specialty),201,,Thread Group 1-3,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963949567,6,GET /specialties (get all specialties),200,,Thread Group 1-3,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963949573,4,GET /specialties/{specialtyId},200,,Thread Group 1-3,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/19,4,0,0
+1757963949577,8,PUT /specialties/{specialtyId},204,,Thread Group 1-3,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/19,0,0,0
+1757963949585,11,DELETE  /specialties/{specialtyId},204,,Thread Group 1-3,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/19,0,0,0
+1757963955142,8,POST /pettypes (create pettype),201,,Thread Group 1-4,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,1
+1757963955151,5,GET /pettypes (get all pettypes),200,,Thread Group 1-4,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963955157,5,GET /pettypes/{petTypeId},200,,Thread Group 1-4,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/23,4,0,0
+1757963955162,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-4,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/23,0,0,0
+1757963955169,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/23,0,0,0
+1757963955179,5,POST /specialties (create specialty),201,,Thread Group 1-4,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963955184,6,GET /specialties (get all specialties),200,,Thread Group 1-4,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963955190,5,GET /specialties/{specialtyId},200,,Thread Group 1-4,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/20,5,0,0
+1757963955195,7,PUT /specialties/{specialtyId},204,,Thread Group 1-4,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/20,0,0,0
+1757963955202,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-4,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/20,0,0,0
+1757963955210,6,POST /pettypes (create pettype),201,,Thread Group 1-4,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963955216,5,GET /pettypes (get all pettypes),200,,Thread Group 1-4,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963955222,4,GET /pettypes/{petTypeId},200,,Thread Group 1-4,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/24,4,0,0
+1757963955227,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-4,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/24,0,0,0
+1757963955234,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/24,0,0,0
+1757963955245,5,POST /specialties (create specialty),201,,Thread Group 1-4,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963955250,6,GET /specialties (get all specialties),200,,Thread Group 1-4,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963955256,4,GET /specialties/{specialtyId},200,,Thread Group 1-4,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/21,4,0,0
+1757963955260,8,PUT /specialties/{specialtyId},204,,Thread Group 1-4,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/21,0,0,0
+1757963955269,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-4,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/21,0,0,0
+1757963955277,8,POST /pettypes (create pettype),201,,Thread Group 1-4,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963955287,6,GET /pettypes (get all pettypes),200,,Thread Group 1-4,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963955293,5,GET /pettypes/{petTypeId},200,,Thread Group 1-4,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/25,5,0,0
+1757963955299,12,PUT /pettypes/{petTypeId},204,,Thread Group 1-4,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/25,0,0,0
+1757963955312,13,DELETE /pettypes/{petTypeId},204,,Thread Group 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/25,0,0,0
+1757963955325,7,POST /specialties (create specialty),201,,Thread Group 1-4,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963955332,6,GET /specialties (get all specialties),200,,Thread Group 1-4,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963955339,5,GET /specialties/{specialtyId},200,,Thread Group 1-4,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/22,4,0,0
+1757963955344,8,PUT /specialties/{specialtyId},204,,Thread Group 1-4,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/22,0,0,0
+1757963955353,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-4,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/22,0,0,0
+1757963955361,4,POST /pettypes (create pettype),201,,Thread Group 1-4,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963955366,6,GET /pettypes (get all pettypes),200,,Thread Group 1-4,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963955373,4,GET /pettypes/{petTypeId},200,,Thread Group 1-4,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/26,4,0,0
+1757963955378,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-4,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/26,0,0,0
+1757963955385,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/26,0,0,0
+1757963955395,6,POST /specialties (create specialty),201,,Thread Group 1-4,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963955401,7,GET /specialties (get all specialties),200,,Thread Group 1-4,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963955408,6,GET /specialties/{specialtyId},200,,Thread Group 1-4,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/23,5,0,0
+1757963955414,7,PUT /specialties/{specialtyId},204,,Thread Group 1-4,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/23,0,0,0
+1757963955421,9,DELETE  /specialties/{specialtyId},204,,Thread Group 1-4,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/23,0,0,0
+1757963955430,6,POST /pettypes (create pettype),201,,Thread Group 1-4,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963955437,7,GET /pettypes (get all pettypes),200,,Thread Group 1-4,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963955446,5,GET /pettypes/{petTypeId},200,,Thread Group 1-4,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/27,5,0,0
+1757963955452,10,PUT /pettypes/{petTypeId},204,,Thread Group 1-4,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/27,0,0,0
+1757963955462,12,DELETE /pettypes/{petTypeId},204,,Thread Group 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/27,0,0,0
+1757963955474,7,POST /specialties (create specialty),201,,Thread Group 1-4,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963955481,6,GET /specialties (get all specialties),200,,Thread Group 1-4,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963955487,4,GET /specialties/{specialtyId},200,,Thread Group 1-4,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/24,4,0,0
+1757963955492,8,PUT /specialties/{specialtyId},204,,Thread Group 1-4,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/24,0,0,0
+1757963955501,9,DELETE  /specialties/{specialtyId},204,,Thread Group 1-4,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/24,0,0,0
+1757963961141,8,POST /pettypes (create pettype),201,,Thread Group 1-5,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,7,0,1
+1757963961149,6,GET /pettypes (get all pettypes),200,,Thread Group 1-5,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963961155,5,GET /pettypes/{petTypeId},200,,Thread Group 1-5,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/28,5,0,0
+1757963961161,14,PUT /pettypes/{petTypeId},204,,Thread Group 1-5,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/28,0,0,0
+1757963961176,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/28,0,0,0
+1757963961186,4,POST /specialties (create specialty),201,,Thread Group 1-5,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963961191,5,GET /specialties (get all specialties),200,,Thread Group 1-5,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963961196,4,GET /specialties/{specialtyId},200,,Thread Group 1-5,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/25,4,0,0
+1757963961201,6,PUT /specialties/{specialtyId},204,,Thread Group 1-5,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/25,0,0,0
+1757963961207,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-5,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/25,0,0,0
+1757963961215,4,POST /pettypes (create pettype),201,,Thread Group 1-5,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963961220,5,GET /pettypes (get all pettypes),200,,Thread Group 1-5,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963961225,4,GET /pettypes/{petTypeId},200,,Thread Group 1-5,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/29,4,0,0
+1757963961229,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-5,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/29,0,0,0
+1757963961237,7,DELETE /pettypes/{petTypeId},204,,Thread Group 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/29,0,0,0
+1757963961245,5,POST /specialties (create specialty),201,,Thread Group 1-5,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963961250,6,GET /specialties (get all specialties),200,,Thread Group 1-5,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963961257,4,GET /specialties/{specialtyId},200,,Thread Group 1-5,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/26,4,0,0
+1757963961261,5,PUT /specialties/{specialtyId},204,,Thread Group 1-5,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/26,0,0,0
+1757963961267,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-5,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/26,0,0,0
+1757963961274,5,POST /pettypes (create pettype),201,,Thread Group 1-5,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963961280,5,GET /pettypes (get all pettypes),200,,Thread Group 1-5,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963961285,7,GET /pettypes/{petTypeId},200,,Thread Group 1-5,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/30,6,0,0
+1757963961293,10,PUT /pettypes/{petTypeId},204,,Thread Group 1-5,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/30,0,0,0
+1757963961304,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/30,0,0,0
+1757963961314,6,POST /specialties (create specialty),201,,Thread Group 1-5,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963961320,4,GET /specialties (get all specialties),200,,Thread Group 1-5,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963961325,4,GET /specialties/{specialtyId},200,,Thread Group 1-5,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/27,4,0,0
+1757963961330,6,PUT /specialties/{specialtyId},204,,Thread Group 1-5,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/27,0,0,0
+1757963961336,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-5,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/27,0,0,0
+1757963961344,4,POST /pettypes (create pettype),201,,Thread Group 1-5,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963961349,6,GET /pettypes (get all pettypes),200,,Thread Group 1-5,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963961355,4,GET /pettypes/{petTypeId},200,,Thread Group 1-5,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/31,4,0,0
+1757963961360,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-5,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/31,0,0,0
+1757963961367,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/31,0,0,0
+1757963961375,4,POST /specialties (create specialty),201,,Thread Group 1-5,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963961380,5,GET /specialties (get all specialties),200,,Thread Group 1-5,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963961385,4,GET /specialties/{specialtyId},200,,Thread Group 1-5,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/28,4,0,0
+1757963961390,6,PUT /specialties/{specialtyId},204,,Thread Group 1-5,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/28,0,0,0
+1757963961396,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-5,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/28,0,0,0
+1757963961404,5,POST /pettypes (create pettype),201,,Thread Group 1-5,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963961410,5,GET /pettypes (get all pettypes),200,,Thread Group 1-5,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963961415,4,GET /pettypes/{petTypeId},200,,Thread Group 1-5,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/32,4,0,0
+1757963961419,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-5,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/32,0,0,0
+1757963961427,9,DELETE /pettypes/{petTypeId},204,,Thread Group 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/32,0,0,0
+1757963961437,7,POST /specialties (create specialty),201,,Thread Group 1-5,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963961444,7,GET /specialties (get all specialties),200,,Thread Group 1-5,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963961451,4,GET /specialties/{specialtyId},200,,Thread Group 1-5,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/29,4,0,0
+1757963961456,6,PUT /specialties/{specialtyId},204,,Thread Group 1-5,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/29,0,0,0
+1757963961462,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-5,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/29,0,0,0
+1757963967139,6,POST /pettypes (create pettype),201,,Thread Group 1-6,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,1
+1757963967146,5,GET /pettypes (get all pettypes),200,,Thread Group 1-6,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963967151,4,GET /pettypes/{petTypeId},200,,Thread Group 1-6,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/33,4,0,0
+1757963967156,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-6,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/33,0,0,0
+1757963967162,9,DELETE /pettypes/{petTypeId},204,,Thread Group 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/33,0,0,0
+1757963967172,5,POST /specialties (create specialty),201,,Thread Group 1-6,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963967177,5,GET /specialties (get all specialties),200,,Thread Group 1-6,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963967182,4,GET /specialties/{specialtyId},200,,Thread Group 1-6,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/30,4,0,0
+1757963967186,6,PUT /specialties/{specialtyId},204,,Thread Group 1-6,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/30,0,0,0
+1757963967192,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-6,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/30,0,0,0
+1757963967200,5,POST /pettypes (create pettype),201,,Thread Group 1-6,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963967206,4,GET /pettypes (get all pettypes),200,,Thread Group 1-6,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963967210,4,GET /pettypes/{petTypeId},200,,Thread Group 1-6,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/34,4,0,0
+1757963967215,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-6,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/34,0,0,0
+1757963967222,23,DELETE /pettypes/{petTypeId},204,,Thread Group 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/34,0,0,0
+1757963967245,7,POST /specialties (create specialty),201,,Thread Group 1-6,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,7,0,0
+1757963967252,21,GET /specialties (get all specialties),200,,Thread Group 1-6,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,20,0,0
+1757963967274,11,GET /specialties/{specialtyId},200,,Thread Group 1-6,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/31,11,0,0
+1757963967286,9,PUT /specialties/{specialtyId},204,,Thread Group 1-6,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/31,0,0,0
+1757963967295,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-6,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/31,0,0,0
+1757963967304,6,POST /pettypes (create pettype),201,,Thread Group 1-6,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963967311,6,GET /pettypes (get all pettypes),200,,Thread Group 1-6,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963967317,5,GET /pettypes/{petTypeId},200,,Thread Group 1-6,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/35,5,0,0
+1757963967322,8,PUT /pettypes/{petTypeId},204,,Thread Group 1-6,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/35,0,0,0
+1757963967330,11,DELETE /pettypes/{petTypeId},204,,Thread Group 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/35,0,0,0
+1757963967341,4,POST /specialties (create specialty),201,,Thread Group 1-6,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963967346,4,GET /specialties (get all specialties),200,,Thread Group 1-6,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,3,0,0
+1757963967350,4,GET /specialties/{specialtyId},200,,Thread Group 1-6,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/32,3,0,0
+1757963967354,6,PUT /specialties/{specialtyId},204,,Thread Group 1-6,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/32,0,0,0
+1757963967361,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-6,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/32,0,0,0
+1757963967369,5,POST /pettypes (create pettype),201,,Thread Group 1-6,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963967375,3,GET /pettypes (get all pettypes),200,,Thread Group 1-6,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,3,0,0
+1757963967379,4,GET /pettypes/{petTypeId},200,,Thread Group 1-6,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/36,4,0,0
+1757963967383,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-6,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/36,0,0,0
+1757963967390,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/36,0,0,0
+1757963967398,5,POST /specialties (create specialty),201,,Thread Group 1-6,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963967404,4,GET /specialties (get all specialties),200,,Thread Group 1-6,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963967408,4,GET /specialties/{specialtyId},200,,Thread Group 1-6,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/33,4,0,0
+1757963967413,5,PUT /specialties/{specialtyId},204,,Thread Group 1-6,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/33,0,0,0
+1757963967418,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-6,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/33,0,0,0
+1757963967426,4,POST /pettypes (create pettype),201,,Thread Group 1-6,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963967430,5,GET /pettypes (get all pettypes),200,,Thread Group 1-6,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963967435,4,GET /pettypes/{petTypeId},200,,Thread Group 1-6,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/37,4,0,0
+1757963967439,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-6,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/37,0,0,0
+1757963967447,7,DELETE /pettypes/{petTypeId},204,,Thread Group 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/37,0,0,0
+1757963967455,5,POST /specialties (create specialty),201,,Thread Group 1-6,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963967460,5,GET /specialties (get all specialties),200,,Thread Group 1-6,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963967465,4,GET /specialties/{specialtyId},200,,Thread Group 1-6,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/34,3,0,0
+1757963967469,6,PUT /specialties/{specialtyId},204,,Thread Group 1-6,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/34,0,0,0
+1757963967475,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-6,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/34,0,0,0
+1757963973141,6,POST /pettypes (create pettype),201,,Thread Group 1-7,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,1
+1757963973150,5,GET /pettypes (get all pettypes),200,,Thread Group 1-7,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963973155,4,GET /pettypes/{petTypeId},200,,Thread Group 1-7,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/38,4,0,0
+1757963973160,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-7,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/38,0,0,0
+1757963973166,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/38,0,0,0
+1757963973177,4,POST /specialties (create specialty),201,,Thread Group 1-7,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963973182,4,GET /specialties (get all specialties),200,,Thread Group 1-7,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963973186,7,GET /specialties/{specialtyId},200,,Thread Group 1-7,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/35,6,0,0
+1757963973193,10,PUT /specialties/{specialtyId},204,,Thread Group 1-7,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/35,0,0,0
+1757963973204,19,DELETE  /specialties/{specialtyId},204,,Thread Group 1-7,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/35,0,0,0
+1757963973224,8,POST /pettypes (create pettype),201,,Thread Group 1-7,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,8,0,0
+1757963973233,5,GET /pettypes (get all pettypes),200,,Thread Group 1-7,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963973239,5,GET /pettypes/{petTypeId},200,,Thread Group 1-7,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/39,4,0,0
+1757963973244,8,PUT /pettypes/{petTypeId},204,,Thread Group 1-7,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/39,0,0,0
+1757963973253,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/39,0,0,0
+1757963973262,4,POST /specialties (create specialty),201,,Thread Group 1-7,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963973267,5,GET /specialties (get all specialties),200,,Thread Group 1-7,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963973272,4,GET /specialties/{specialtyId},200,,Thread Group 1-7,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/36,3,0,0
+1757963973276,10,PUT /specialties/{specialtyId},204,,Thread Group 1-7,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/36,0,0,0
+1757963973286,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-7,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/36,0,0,0
+1757963973294,5,POST /pettypes (create pettype),201,,Thread Group 1-7,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963973300,5,GET /pettypes (get all pettypes),200,,Thread Group 1-7,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963973305,4,GET /pettypes/{petTypeId},200,,Thread Group 1-7,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/40,4,0,0
+1757963973310,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-7,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/40,0,0,0
+1757963973315,9,DELETE /pettypes/{petTypeId},204,,Thread Group 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/40,0,0,0
+1757963973325,4,POST /specialties (create specialty),201,,Thread Group 1-7,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963973330,4,GET /specialties (get all specialties),200,,Thread Group 1-7,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963973334,4,GET /specialties/{specialtyId},200,,Thread Group 1-7,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/37,3,0,0
+1757963973338,5,PUT /specialties/{specialtyId},204,,Thread Group 1-7,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/37,0,0,0
+1757963973344,9,DELETE  /specialties/{specialtyId},204,,Thread Group 1-7,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/37,0,0,0
+1757963973353,5,POST /pettypes (create pettype),201,,Thread Group 1-7,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963973359,5,GET /pettypes (get all pettypes),200,,Thread Group 1-7,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963973364,5,GET /pettypes/{petTypeId},200,,Thread Group 1-7,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/41,5,0,0
+1757963973369,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-7,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/41,0,0,0
+1757963973375,7,DELETE /pettypes/{petTypeId},204,,Thread Group 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/41,0,0,0
+1757963973383,4,POST /specialties (create specialty),201,,Thread Group 1-7,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963973388,4,GET /specialties (get all specialties),200,,Thread Group 1-7,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,3,0,0
+1757963973392,4,GET /specialties/{specialtyId},200,,Thread Group 1-7,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/38,4,0,0
+1757963973396,7,PUT /specialties/{specialtyId},204,,Thread Group 1-7,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/38,0,0,0
+1757963973404,6,DELETE  /specialties/{specialtyId},204,,Thread Group 1-7,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/38,0,0,0
+1757963973411,4,POST /pettypes (create pettype),201,,Thread Group 1-7,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963973416,5,GET /pettypes (get all pettypes),200,,Thread Group 1-7,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963973421,3,GET /pettypes/{petTypeId},200,,Thread Group 1-7,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/42,3,0,0
+1757963973425,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-7,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/42,0,0,0
+1757963973430,9,DELETE /pettypes/{petTypeId},204,,Thread Group 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/42,0,0,0
+1757963973439,5,POST /specialties (create specialty),201,,Thread Group 1-7,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963973444,5,GET /specialties (get all specialties),200,,Thread Group 1-7,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963973449,4,GET /specialties/{specialtyId},200,,Thread Group 1-7,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/39,4,0,0
+1757963973453,6,PUT /specialties/{specialtyId},204,,Thread Group 1-7,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/39,0,0,0
+1757963973460,6,DELETE  /specialties/{specialtyId},204,,Thread Group 1-7,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/39,0,0,0
+1757963979138,6,POST /pettypes (create pettype),201,,Thread Group 1-8,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,1
+1757963979144,5,GET /pettypes (get all pettypes),200,,Thread Group 1-8,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963979149,4,GET /pettypes/{petTypeId},200,,Thread Group 1-8,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/43,4,0,0
+1757963979153,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-8,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/43,0,0,0
+1757963979159,9,DELETE /pettypes/{petTypeId},204,,Thread Group 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/43,0,0,0
+1757963979168,4,POST /specialties (create specialty),201,,Thread Group 1-8,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963979173,4,GET /specialties (get all specialties),200,,Thread Group 1-8,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963979177,3,GET /specialties/{specialtyId},200,,Thread Group 1-8,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/40,3,0,0
+1757963979181,6,PUT /specialties/{specialtyId},204,,Thread Group 1-8,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/40,0,0,0
+1757963979188,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-8,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/40,0,0,0
+1757963979195,4,POST /pettypes (create pettype),201,,Thread Group 1-8,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963979200,4,GET /pettypes (get all pettypes),200,,Thread Group 1-8,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963979204,4,GET /pettypes/{petTypeId},200,,Thread Group 1-8,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/44,4,0,0
+1757963979209,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-8,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/44,0,0,0
+1757963979214,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/44,0,0,0
+1757963979223,4,POST /specialties (create specialty),201,,Thread Group 1-8,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963979228,5,GET /specialties (get all specialties),200,,Thread Group 1-8,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963979233,4,GET /specialties/{specialtyId},200,,Thread Group 1-8,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/41,4,0,0
+1757963979237,5,PUT /specialties/{specialtyId},204,,Thread Group 1-8,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/41,0,0,0
+1757963979243,5,DELETE  /specialties/{specialtyId},204,,Thread Group 1-8,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/41,0,0,0
+1757963979249,5,POST /pettypes (create pettype),201,,Thread Group 1-8,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963979254,4,GET /pettypes (get all pettypes),200,,Thread Group 1-8,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963979259,3,GET /pettypes/{petTypeId},200,,Thread Group 1-8,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/45,3,0,0
+1757963979263,11,PUT /pettypes/{petTypeId},204,,Thread Group 1-8,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/45,0,0,0
+1757963979275,14,DELETE /pettypes/{petTypeId},204,,Thread Group 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/45,0,0,0
+1757963979290,5,POST /specialties (create specialty),201,,Thread Group 1-8,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963979296,4,GET /specialties (get all specialties),200,,Thread Group 1-8,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963979300,4,GET /specialties/{specialtyId},200,,Thread Group 1-8,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/42,4,0,0
+1757963979305,6,PUT /specialties/{specialtyId},204,,Thread Group 1-8,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/42,0,0,0
+1757963979312,5,DELETE  /specialties/{specialtyId},204,,Thread Group 1-8,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/42,0,0,0
+1757963979318,4,POST /pettypes (create pettype),201,,Thread Group 1-8,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963979322,5,GET /pettypes (get all pettypes),200,,Thread Group 1-8,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963979328,6,GET /pettypes/{petTypeId},200,,Thread Group 1-8,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/46,5,0,0
+1757963979334,7,PUT /pettypes/{petTypeId},204,,Thread Group 1-8,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/46,0,0,0
+1757963979342,9,DELETE /pettypes/{petTypeId},204,,Thread Group 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/46,0,0,0
+1757963979352,5,POST /specialties (create specialty),201,,Thread Group 1-8,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963979357,5,GET /specialties (get all specialties),200,,Thread Group 1-8,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963979362,5,GET /specialties/{specialtyId},200,,Thread Group 1-8,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/43,5,0,0
+1757963979368,6,PUT /specialties/{specialtyId},204,,Thread Group 1-8,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/43,0,0,0
+1757963979374,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-8,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/43,0,0,0
+1757963979381,5,POST /pettypes (create pettype),201,,Thread Group 1-8,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963979386,5,GET /pettypes (get all pettypes),200,,Thread Group 1-8,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963979392,5,GET /pettypes/{petTypeId},200,,Thread Group 1-8,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/47,5,0,0
+1757963979398,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-8,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/47,0,0,0
+1757963979404,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/47,0,0,0
+1757963979414,6,POST /specialties (create specialty),201,,Thread Group 1-8,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963979420,4,GET /specialties (get all specialties),200,,Thread Group 1-8,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963979424,4,GET /specialties/{specialtyId},200,,Thread Group 1-8,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/44,4,0,0
+1757963979429,5,PUT /specialties/{specialtyId},204,,Thread Group 1-8,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/44,0,0,0
+1757963979434,7,DELETE  /specialties/{specialtyId},204,,Thread Group 1-8,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/44,0,0,0
+1757963985140,5,POST /pettypes (create pettype),201,,Thread Group 1-9,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,1
+1757963985146,3,GET /pettypes (get all pettypes),200,,Thread Group 1-9,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,3,0,0
+1757963985150,3,GET /pettypes/{petTypeId},200,,Thread Group 1-9,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/48,3,0,0
+1757963985153,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-9,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/48,0,0,0
+1757963985159,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/48,0,0,0
+1757963985167,4,POST /specialties (create specialty),201,,Thread Group 1-9,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963985172,4,GET /specialties (get all specialties),200,,Thread Group 1-9,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,3,0,0
+1757963985176,4,GET /specialties/{specialtyId},200,,Thread Group 1-9,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/45,4,0,0
+1757963985180,6,PUT /specialties/{specialtyId},204,,Thread Group 1-9,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/45,0,0,0
+1757963985186,6,DELETE  /specialties/{specialtyId},204,,Thread Group 1-9,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/45,0,0,0
+1757963985192,4,POST /pettypes (create pettype),201,,Thread Group 1-9,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963985197,4,GET /pettypes (get all pettypes),200,,Thread Group 1-9,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963985201,4,GET /pettypes/{petTypeId},200,,Thread Group 1-9,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/49,4,0,0
+1757963985205,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-9,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/49,0,0,0
+1757963985211,10,DELETE /pettypes/{petTypeId},204,,Thread Group 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/49,0,0,0
+1757963985221,7,POST /specialties (create specialty),201,,Thread Group 1-9,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,6,0,0
+1757963985228,5,GET /specialties (get all specialties),200,,Thread Group 1-9,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963985233,5,GET /specialties/{specialtyId},200,,Thread Group 1-9,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/46,4,0,0
+1757963985238,6,PUT /specialties/{specialtyId},204,,Thread Group 1-9,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/46,0,0,0
+1757963985244,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-9,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/46,0,0,0
+1757963985253,3,POST /pettypes (create pettype),201,,Thread Group 1-9,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,3,0,0
+1757963985257,4,GET /pettypes (get all pettypes),200,,Thread Group 1-9,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963985261,3,GET /pettypes/{petTypeId},200,,Thread Group 1-9,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/50,3,0,0
+1757963985265,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-9,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/50,0,0,0
+1757963985271,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/50,0,0,0
+1757963985279,5,POST /specialties (create specialty),201,,Thread Group 1-9,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963985285,4,GET /specialties (get all specialties),200,,Thread Group 1-9,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,3,0,0
+1757963985289,3,GET /specialties/{specialtyId},200,,Thread Group 1-9,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/47,3,0,0
+1757963985293,5,PUT /specialties/{specialtyId},204,,Thread Group 1-9,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/47,0,0,0
+1757963985299,6,DELETE  /specialties/{specialtyId},204,,Thread Group 1-9,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/47,0,0,0
+1757963985305,5,POST /pettypes (create pettype),201,,Thread Group 1-9,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963985311,5,GET /pettypes (get all pettypes),200,,Thread Group 1-9,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963985316,4,GET /pettypes/{petTypeId},200,,Thread Group 1-9,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/51,4,0,0
+1757963985320,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-9,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/51,0,0,0
+1757963985325,9,DELETE /pettypes/{petTypeId},204,,Thread Group 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/51,0,0,0
+1757963985334,4,POST /specialties (create specialty),201,,Thread Group 1-9,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963985339,4,GET /specialties (get all specialties),200,,Thread Group 1-9,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963985344,4,GET /specialties/{specialtyId},200,,Thread Group 1-9,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/48,3,0,0
+1757963985348,6,PUT /specialties/{specialtyId},204,,Thread Group 1-9,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/48,0,0,0
+1757963985355,8,DELETE  /specialties/{specialtyId},204,,Thread Group 1-9,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/48,0,0,0
+1757963985364,4,POST /pettypes (create pettype),201,,Thread Group 1-9,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963985369,5,GET /pettypes (get all pettypes),200,,Thread Group 1-9,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963985374,3,GET /pettypes/{petTypeId},200,,Thread Group 1-9,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/52,3,0,0
+1757963985378,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-9,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/52,0,0,0
+1757963985383,7,DELETE /pettypes/{petTypeId},204,,Thread Group 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/52,0,0,0
+1757963985391,3,POST /specialties (create specialty),201,,Thread Group 1-9,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,3,0,0
+1757963985395,4,GET /specialties (get all specialties),200,,Thread Group 1-9,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963985400,3,GET /specialties/{specialtyId},200,,Thread Group 1-9,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/49,3,0,0
+1757963985404,5,PUT /specialties/{specialtyId},204,,Thread Group 1-9,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/49,0,0,0
+1757963985409,6,DELETE  /specialties/{specialtyId},204,,Thread Group 1-9,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/49,0,0,0
+1757963991139,5,POST /pettypes (create pettype),201,,Thread Group 1-10,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,1
+1757963991144,4,GET /pettypes (get all pettypes),200,,Thread Group 1-10,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963991148,4,GET /pettypes/{petTypeId},200,,Thread Group 1-10,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/53,4,0,0
+1757963991152,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-10,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/53,0,0,0
+1757963991159,5,DELETE /pettypes/{petTypeId},204,,Thread Group 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/53,0,0,0
+1757963991165,4,POST /specialties (create specialty),201,,Thread Group 1-10,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991170,4,GET /specialties (get all specialties),200,,Thread Group 1-10,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,3,0,0
+1757963991174,4,GET /specialties/{specialtyId},200,,Thread Group 1-10,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/50,4,0,0
+1757963991178,5,PUT /specialties/{specialtyId},204,,Thread Group 1-10,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/50,0,0,0
+1757963991184,5,DELETE  /specialties/{specialtyId},204,,Thread Group 1-10,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/50,0,0,0
+1757963991190,3,POST /pettypes (create pettype),201,,Thread Group 1-10,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,3,0,0
+1757963991194,4,GET /pettypes (get all pettypes),200,,Thread Group 1-10,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963991198,4,GET /pettypes/{petTypeId},200,,Thread Group 1-10,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/54,4,0,0
+1757963991203,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-10,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/54,0,0,0
+1757963991208,7,DELETE /pettypes/{petTypeId},204,,Thread Group 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/54,0,0,0
+1757963991215,4,POST /specialties (create specialty),201,,Thread Group 1-10,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991220,5,GET /specialties (get all specialties),200,,Thread Group 1-10,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,5,0,0
+1757963991225,4,GET /specialties/{specialtyId},200,,Thread Group 1-10,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/51,4,0,0
+1757963991229,6,PUT /specialties/{specialtyId},204,,Thread Group 1-10,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/51,0,0,0
+1757963991235,32,DELETE  /specialties/{specialtyId},204,,Thread Group 1-10,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/51,0,0,0
+1757963991267,24,POST /pettypes (create pettype),201,,Thread Group 1-10,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,23,0,0
+1757963991291,7,GET /pettypes (get all pettypes),200,,Thread Group 1-10,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,7,0,0
+1757963991299,5,GET /pettypes/{petTypeId},200,,Thread Group 1-10,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/55,4,0,0
+1757963991304,6,PUT /pettypes/{petTypeId},204,,Thread Group 1-10,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/55,0,0,0
+1757963991310,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/55,0,0,0
+1757963991318,4,POST /specialties (create specialty),201,,Thread Group 1-10,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991323,4,GET /specialties (get all specialties),200,,Thread Group 1-10,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991327,4,GET /specialties/{specialtyId},200,,Thread Group 1-10,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/52,3,0,0
+1757963991331,5,PUT /specialties/{specialtyId},204,,Thread Group 1-10,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/52,0,0,0
+1757963991336,6,DELETE  /specialties/{specialtyId},204,,Thread Group 1-10,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/52,0,0,0
+1757963991343,4,POST /pettypes (create pettype),201,,Thread Group 1-10,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,3,0,0
+1757963991347,6,GET /pettypes (get all pettypes),200,,Thread Group 1-10,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,6,0,0
+1757963991353,3,GET /pettypes/{petTypeId},200,,Thread Group 1-10,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/56,3,0,0
+1757963991356,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-10,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/56,0,0,0
+1757963991362,7,DELETE /pettypes/{petTypeId},204,,Thread Group 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/56,0,0,0
+1757963991370,4,POST /specialties (create specialty),201,,Thread Group 1-10,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991375,4,GET /specialties (get all specialties),200,,Thread Group 1-10,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991380,3,GET /specialties/{specialtyId},200,,Thread Group 1-10,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/53,3,0,0
+1757963991383,9,PUT /specialties/{specialtyId},204,,Thread Group 1-10,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/53,0,0,0
+1757963991393,6,DELETE  /specialties/{specialtyId},204,,Thread Group 1-10,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/53,0,0,0
+1757963991399,5,POST /pettypes (create pettype),201,,Thread Group 1-10,text,true,,482,210,1,1,http://localhost:9966/petclinic/api/pettypes,4,0,0
+1757963991404,6,GET /pettypes (get all pettypes),200,,Thread Group 1-10,text,true,,598,134,1,1,http://localhost:9966/petclinic/api/pettypes,5,0,0
+1757963991410,3,GET /pettypes/{petTypeId},200,,Thread Group 1-10,text,true,,454,137,1,1,http://localhost:9966/petclinic/api/pettypes/57,3,0,0
+1757963991414,5,PUT /pettypes/{petTypeId},204,,Thread Group 1-10,text,true,,393,234,1,1,http://localhost:9966/petclinic/api/pettypes/57,0,0,0
+1757963991419,8,DELETE /pettypes/{petTypeId},204,,Thread Group 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/pettypes/57,0,0,0
+1757963991427,4,POST /specialties (create specialty),201,,Thread Group 1-10,text,true,,491,217,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991432,5,GET /specialties (get all specialties),200,,Thread Group 1-10,text,true,,544,137,1,1,http://localhost:9966/petclinic/api/specialties,4,0,0
+1757963991437,3,GET /specialties/{specialtyId},200,,Thread Group 1-10,text,true,,460,140,1,1,http://localhost:9966/petclinic/api/specialties/54,3,0,0
+1757963991441,5,PUT /specialties/{specialtyId},204,,Thread Group 1-10,text,true,,393,239,1,1,http://localhost:9966/petclinic/api/specialties/54,0,0,0
+1757963991447,5,DELETE  /specialties/{specialtyId},204,,Thread Group 1-10,,true,,361,226,1,1,http://localhost:9966/petclinic/api/specialties/54,0,0,0
