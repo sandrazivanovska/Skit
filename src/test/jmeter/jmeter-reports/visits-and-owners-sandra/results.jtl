@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1757892201889,40,POST /owners (create owner),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,35,0,21
+1757892201960,5,POST /owners/559104/pets,201,,Visit and Owner 1-1,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559104/pets,5,0,0
+1757892201966,3,POST /visits (create),201,,Visit and Owner 1-1,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,3,0,0
+1757892201970,4,GET /visits/{visitId},200,,Visit and Owner 1-1,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264860,4,0,0
+1757892201974,6,PUT /visits/{visitId},204,,Visit and Owner 1-1,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264860,0,0,0
+1757892201981,6,DELETE /visits/{visitId},204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264860,0,0,0
+1757892201987,3,POST /owners (create),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1757892201991,2,GET /owners/559105,200,,Visit and Owner 1-1,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559105,2,0,0
+1757892201994,3,PUT /owners/559105,204,,Visit and Owner 1-1,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559105,0,0,0
+1757892201998,3,DELETE /owners/559105,204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559105,0,0,0
+1757892202002,2,POST /owners (create owner),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,2,0,0
+1757892202005,3,POST /owners/559106/pets,201,,Visit and Owner 1-1,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559106/pets,3,0,0
+1757892202009,2,POST /visits (create),201,,Visit and Owner 1-1,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,2,0,0
+1757892202012,3,GET /visits/{visitId},200,,Visit and Owner 1-1,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264861,3,0,0
+1757892202016,5,PUT /visits/{visitId},204,,Visit and Owner 1-1,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264861,0,0,0
+1757892202021,9,DELETE /visits/{visitId},204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264861,0,0,0
+1757892202031,2,POST /owners (create),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,2,0,0
+1757892202034,2,GET /owners/559107,200,,Visit and Owner 1-1,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559107,2,0,0
+1757892202037,4,PUT /owners/559107,204,,Visit and Owner 1-1,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559107,0,0,0
+1757892202041,3,DELETE /owners/559107,204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559107,0,0,0
+1757892202045,3,POST /owners (create owner),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1757892202048,3,POST /owners/559108/pets,201,,Visit and Owner 1-1,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559108/pets,3,0,0
+1757892202052,3,POST /visits (create),201,,Visit and Owner 1-1,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,2,0,0
+1757892202055,8,GET /visits/{visitId},200,,Visit and Owner 1-1,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264862,8,0,0
+1757892202063,5,PUT /visits/{visitId},204,,Visit and Owner 1-1,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264862,0,0,0
+1757892202068,4,DELETE /visits/{visitId},204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264862,0,0,0
+1757892202073,3,POST /owners (create),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1757892202076,3,GET /owners/559109,200,,Visit and Owner 1-1,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559109,3,0,0
+1757892202079,3,PUT /owners/559109,204,,Visit and Owner 1-1,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559109,0,0,0
+1757892202083,3,DELETE /owners/559109,204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559109,0,0,0
+1757892202086,3,POST /owners (create owner),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1757892202090,3,POST /owners/559110/pets,201,,Visit and Owner 1-1,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559110/pets,3,0,0
+1757892202093,3,POST /visits (create),201,,Visit and Owner 1-1,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,3,0,0
+1757892202097,3,GET /visits/{visitId},200,,Visit and Owner 1-1,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264863,3,0,0
+1757892202100,4,PUT /visits/{visitId},204,,Visit and Owner 1-1,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264863,0,0,0
+1757892202105,3,DELETE /visits/{visitId},204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264863,0,0,0
+1757892202109,2,POST /owners (create),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,2,0,0
+1757892202112,2,GET /owners/559111,200,,Visit and Owner 1-1,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559111,2,0,0
+1757892202115,3,PUT /owners/559111,204,,Visit and Owner 1-1,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559111,0,0,0
+1757892202118,3,DELETE /owners/559111,204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559111,0,0,0
+1757892202122,3,POST /owners (create owner),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,2,0,0
+1757892202125,3,POST /owners/559112/pets,201,,Visit and Owner 1-1,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559112/pets,3,0,0
+1757892202128,3,POST /visits (create),201,,Visit and Owner 1-1,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,3,0,0
+1757892202132,3,GET /visits/{visitId},200,,Visit and Owner 1-1,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264864,3,0,0
+1757892202135,4,PUT /visits/{visitId},204,,Visit and Owner 1-1,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264864,0,0,0
+1757892202140,4,DELETE /visits/{visitId},204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264864,0,0,0
+1757892202144,2,POST /owners (create),201,,Visit and Owner 1-1,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,2,0,0
+1757892202147,2,GET /owners/559113,200,,Visit and Owner 1-1,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559113,2,0,0
+1757892202149,4,PUT /owners/559113,204,,Visit and Owner 1-1,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559113,0,0,0
+1757892202153,4,DELETE /owners/559113,204,,Visit and Owner 1-1,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559113,0,0,0
+1757892207780,6,POST /owners (create owner),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,1
+1757892207787,4,POST /owners/559114/pets,201,,Visit and Owner 1-2,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559114/pets,4,0,0
+1757892207791,5,POST /visits (create),201,,Visit and Owner 1-2,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892207797,5,GET /visits/{visitId},200,,Visit and Owner 1-2,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264865,5,0,0
+1757892207803,6,PUT /visits/{visitId},204,,Visit and Owner 1-2,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264865,0,0,0
+1757892207810,6,DELETE /visits/{visitId},204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264865,0,0,0
+1757892207817,4,POST /owners (create),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,4,0,0
+1757892207822,3,GET /owners/559115,200,,Visit and Owner 1-2,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559115,3,0,0
+1757892207826,5,PUT /owners/559115,204,,Visit and Owner 1-2,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559115,0,0,0
+1757892207832,3,DELETE /owners/559115,204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559115,0,0,0
+1757892207836,3,POST /owners (create owner),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1757892207840,5,POST /owners/559116/pets,201,,Visit and Owner 1-2,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559116/pets,5,0,0
+1757892207846,4,POST /visits (create),201,,Visit and Owner 1-2,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,4,0,0
+1757892207851,3,GET /visits/{visitId},200,,Visit and Owner 1-2,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264866,3,0,0
+1757892207855,6,PUT /visits/{visitId},204,,Visit and Owner 1-2,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264866,0,0,0
+1757892207861,6,DELETE /visits/{visitId},204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264866,0,0,0
+1757892207868,3,POST /owners (create),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1757892207872,4,GET /owners/559117,200,,Visit and Owner 1-2,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559117,4,0,0
+1757892207877,5,PUT /owners/559117,204,,Visit and Owner 1-2,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559117,0,0,0
+1757892207883,4,DELETE /owners/559117,204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559117,0,0,0
+1757892207888,5,POST /owners (create owner),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892207894,5,POST /owners/559118/pets,201,,Visit and Owner 1-2,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559118/pets,5,0,0
+1757892207900,4,POST /visits (create),201,,Visit and Owner 1-2,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,4,0,0
+1757892207904,6,GET /visits/{visitId},200,,Visit and Owner 1-2,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264867,5,0,0
+1757892207911,7,PUT /visits/{visitId},204,,Visit and Owner 1-2,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264867,0,0,0
+1757892207918,5,DELETE /visits/{visitId},204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264867,0,0,0
+1757892207923,4,POST /owners (create),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,3,0,0
+1757892207927,4,GET /owners/559119,200,,Visit and Owner 1-2,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559119,3,0,0
+1757892207931,6,PUT /owners/559119,204,,Visit and Owner 1-2,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559119,0,0,0
+1757892207937,6,DELETE /owners/559119,204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559119,0,0,0
+1757892207943,4,POST /owners (create owner),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,4,0,0
+1757892207947,5,POST /owners/559120/pets,201,,Visit and Owner 1-2,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559120/pets,4,0,0
+1757892207953,4,POST /visits (create),201,,Visit and Owner 1-2,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,3,0,0
+1757892207957,5,GET /visits/{visitId},200,,Visit and Owner 1-2,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264868,5,0,0
+1757892207963,6,PUT /visits/{visitId},204,,Visit and Owner 1-2,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264868,0,0,0
+1757892207970,7,DELETE /visits/{visitId},204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264868,0,0,0
+1757892207978,4,POST /owners (create),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,4,0,0
+1757892207982,4,GET /owners/559121,200,,Visit and Owner 1-2,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559121,4,0,0
+1757892207988,6,PUT /owners/559121,204,,Visit and Owner 1-2,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559121,0,0,0
+1757892207994,4,DELETE /owners/559121,204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559121,0,0,0
+1757892207999,4,POST /owners (create owner),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,4,0,0
+1757892208003,4,POST /owners/559122/pets,201,,Visit and Owner 1-2,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559122/pets,4,0,0
+1757892208008,3,POST /visits (create),201,,Visit and Owner 1-2,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,3,0,0
+1757892208012,4,GET /visits/{visitId},200,,Visit and Owner 1-2,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264869,4,0,0
+1757892208017,6,PUT /visits/{visitId},204,,Visit and Owner 1-2,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264869,0,0,0
+1757892208024,7,DELETE /visits/{visitId},204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264869,0,0,0
+1757892208031,4,POST /owners (create),201,,Visit and Owner 1-2,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,4,0,0
+1757892208035,4,GET /owners/559123,200,,Visit and Owner 1-2,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559123,3,0,0
+1757892208039,6,PUT /owners/559123,204,,Visit and Owner 1-2,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559123,0,0,0
+1757892208046,4,DELETE /owners/559123,204,,Visit and Owner 1-2,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559123,0,0,0
+1757892213780,12,POST /owners (create owner),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,12,0,6
+1757892213804,9,POST /owners/559124/pets,201,,Visit and Owner 1-3,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559124/pets,9,0,0
+1757892213817,8,POST /visits (create),201,,Visit and Owner 1-3,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,8,0,0
+1757892213828,11,GET /visits/{visitId},200,,Visit and Owner 1-3,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264870,9,0,0
+1757892213840,14,PUT /visits/{visitId},204,,Visit and Owner 1-3,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264870,0,0,0
+1757892213857,11,DELETE /visits/{visitId},204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264870,0,0,0
+1757892213869,13,POST /owners (create),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,12,0,0
+1757892213885,5,GET /owners/559125,200,,Visit and Owner 1-3,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559125,5,0,0
+1757892213892,9,PUT /owners/559125,204,,Visit and Owner 1-3,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559125,0,0,0
+1757892213902,8,DELETE /owners/559125,204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559125,0,0,0
+1757892213913,10,POST /owners (create owner),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,10,0,0
+1757892213924,12,POST /owners/559126/pets,201,,Visit and Owner 1-3,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559126/pets,12,0,0
+1757892213937,6,POST /visits (create),201,,Visit and Owner 1-3,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,6,0,0
+1757892213944,5,GET /visits/{visitId},200,,Visit and Owner 1-3,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264871,5,0,0
+1757892213951,10,PUT /visits/{visitId},204,,Visit and Owner 1-3,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264871,0,0,0
+1757892213962,13,DELETE /visits/{visitId},204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264871,0,0,0
+1757892213976,6,POST /owners (create),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892213984,6,GET /owners/559127,200,,Visit and Owner 1-3,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559127,6,0,0
+1757892213991,11,PUT /owners/559127,204,,Visit and Owner 1-3,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559127,0,0,0
+1757892214003,6,DELETE /owners/559127,204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559127,0,0,0
+1757892214011,6,POST /owners (create owner),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892214018,9,POST /owners/559128/pets,201,,Visit and Owner 1-3,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559128/pets,8,0,0
+1757892214027,8,POST /visits (create),201,,Visit and Owner 1-3,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,8,0,0
+1757892214036,7,GET /visits/{visitId},200,,Visit and Owner 1-3,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264872,7,0,0
+1757892214045,14,PUT /visits/{visitId},204,,Visit and Owner 1-3,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264872,0,0,0
+1757892214060,14,DELETE /visits/{visitId},204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264872,0,0,0
+1757892214075,6,POST /owners (create),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892214083,9,GET /owners/559129,200,,Visit and Owner 1-3,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559129,9,0,0
+1757892214096,9,PUT /owners/559129,204,,Visit and Owner 1-3,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559129,0,0,0
+1757892214108,9,DELETE /owners/559129,204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559129,0,0,0
+1757892214120,8,POST /owners (create owner),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,8,0,0
+1757892214129,8,POST /owners/559130/pets,201,,Visit and Owner 1-3,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559130/pets,7,0,0
+1757892214139,9,POST /visits (create),201,,Visit and Owner 1-3,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,8,0,0
+1757892214148,6,GET /visits/{visitId},200,,Visit and Owner 1-3,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264873,5,0,0
+1757892214154,15,PUT /visits/{visitId},204,,Visit and Owner 1-3,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264873,0,0,0
+1757892214170,9,DELETE /visits/{visitId},204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264873,0,0,0
+1757892214181,15,POST /owners (create),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,15,0,0
+1757892214200,5,GET /owners/559131,200,,Visit and Owner 1-3,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559131,5,0,0
+1757892214208,16,PUT /owners/559131,204,,Visit and Owner 1-3,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559131,0,0,0
+1757892214225,11,DELETE /owners/559131,204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559131,0,0,0
+1757892214239,8,POST /owners (create owner),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892214250,10,POST /owners/559132/pets,201,,Visit and Owner 1-3,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559132/pets,10,0,0
+1757892214261,10,POST /visits (create),201,,Visit and Owner 1-3,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,9,0,0
+1757892214273,10,GET /visits/{visitId},200,,Visit and Owner 1-3,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264874,9,0,0
+1757892214284,8,PUT /visits/{visitId},204,,Visit and Owner 1-3,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264874,0,0,0
+1757892214293,11,DELETE /visits/{visitId},204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264874,0,0,0
+1757892214306,6,POST /owners (create),201,,Visit and Owner 1-3,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892214313,10,GET /owners/559133,200,,Visit and Owner 1-3,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559133,10,0,0
+1757892214324,13,PUT /owners/559133,204,,Visit and Owner 1-3,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559133,0,0,0
+1757892214340,8,DELETE /owners/559133,204,,Visit and Owner 1-3,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559133,0,0,0
+1757892219789,9,POST /owners (create owner),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,9,0,1
+1757892219799,6,POST /owners/559134/pets,201,,Visit and Owner 1-4,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559134/pets,6,0,0
+1757892219806,7,POST /visits (create),201,,Visit and Owner 1-4,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,6,0,0
+1757892219814,6,GET /visits/{visitId},200,,Visit and Owner 1-4,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264875,6,0,0
+1757892219822,14,PUT /visits/{visitId},204,,Visit and Owner 1-4,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264875,0,0,0
+1757892219838,11,DELETE /visits/{visitId},204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264875,0,0,0
+1757892219850,6,POST /owners (create),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892219858,14,GET /owners/559135,200,,Visit and Owner 1-4,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559135,13,0,0
+1757892219873,7,PUT /owners/559135,204,,Visit and Owner 1-4,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559135,0,0,0
+1757892219881,9,DELETE /owners/559135,204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559135,0,0,0
+1757892219892,8,POST /owners (create owner),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892219901,9,POST /owners/559136/pets,201,,Visit and Owner 1-4,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559136/pets,9,0,0
+1757892219912,12,POST /visits (create),201,,Visit and Owner 1-4,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,12,0,0
+1757892219925,5,GET /visits/{visitId},200,,Visit and Owner 1-4,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264876,5,0,0
+1757892219931,17,PUT /visits/{visitId},204,,Visit and Owner 1-4,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264876,0,0,0
+1757892219949,9,DELETE /visits/{visitId},204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264876,0,0,0
+1757892219959,7,POST /owners (create),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892219966,13,GET /owners/559137,200,,Visit and Owner 1-4,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559137,11,0,0
+1757892219981,9,PUT /owners/559137,204,,Visit and Owner 1-4,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559137,0,0,0
+1757892219991,7,DELETE /owners/559137,204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559137,0,0,0
+1757892220000,7,POST /owners (create owner),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892220009,10,POST /owners/559138/pets,201,,Visit and Owner 1-4,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559138/pets,10,0,0
+1757892220021,6,POST /visits (create),201,,Visit and Owner 1-4,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892220029,8,GET /visits/{visitId},200,,Visit and Owner 1-4,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264877,8,0,0
+1757892220038,11,PUT /visits/{visitId},204,,Visit and Owner 1-4,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264877,0,0,0
+1757892220050,16,DELETE /visits/{visitId},204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264877,0,0,0
+1757892220066,7,POST /owners (create),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892220074,5,GET /owners/559139,200,,Visit and Owner 1-4,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559139,5,0,0
+1757892220080,6,PUT /owners/559139,204,,Visit and Owner 1-4,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559139,0,0,0
+1757892220087,6,DELETE /owners/559139,204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559139,0,0,0
+1757892220093,6,POST /owners (create owner),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892220100,6,POST /owners/559140/pets,201,,Visit and Owner 1-4,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559140/pets,5,0,0
+1757892220108,4,POST /visits (create),201,,Visit and Owner 1-4,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,4,0,0
+1757892220113,11,GET /visits/{visitId},200,,Visit and Owner 1-4,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264878,11,0,0
+1757892220125,7,PUT /visits/{visitId},204,,Visit and Owner 1-4,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264878,0,0,0
+1757892220133,6,DELETE /visits/{visitId},204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264878,0,0,0
+1757892220141,5,POST /owners (create),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892220148,4,GET /owners/559141,200,,Visit and Owner 1-4,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559141,4,0,0
+1757892220153,9,PUT /owners/559141,204,,Visit and Owner 1-4,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559141,0,0,0
+1757892220162,6,DELETE /owners/559141,204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559141,0,0,0
+1757892220171,5,POST /owners (create owner),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892220178,9,POST /owners/559142/pets,201,,Visit and Owner 1-4,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559142/pets,8,0,0
+1757892220188,6,POST /visits (create),201,,Visit and Owner 1-4,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892220194,6,GET /visits/{visitId},200,,Visit and Owner 1-4,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264879,6,0,0
+1757892220201,15,PUT /visits/{visitId},204,,Visit and Owner 1-4,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264879,0,0,0
+1757892220216,10,DELETE /visits/{visitId},204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264879,0,0,0
+1757892220227,5,POST /owners (create),201,,Visit and Owner 1-4,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892220233,12,GET /owners/559143,200,,Visit and Owner 1-4,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559143,10,0,0
+1757892220246,7,PUT /owners/559143,204,,Visit and Owner 1-4,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559143,0,0,0
+1757892220255,6,DELETE /owners/559143,204,,Visit and Owner 1-4,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559143,0,0,0
+1757892225775,14,POST /owners (create owner),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,14,0,4
+1757892225790,6,POST /owners/559144/pets,201,,Visit and Owner 1-5,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559144/pets,6,0,0
+1757892225800,10,POST /visits (create),201,,Visit and Owner 1-5,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,10,0,0
+1757892225813,9,GET /visits/{visitId},200,,Visit and Owner 1-5,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264880,9,0,0
+1757892225823,10,PUT /visits/{visitId},204,,Visit and Owner 1-5,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264880,0,0,0
+1757892225834,8,DELETE /visits/{visitId},204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264880,0,0,0
+1757892225843,6,POST /owners (create),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892225850,6,GET /owners/559145,200,,Visit and Owner 1-5,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559145,5,0,0
+1757892225856,12,PUT /owners/559145,204,,Visit and Owner 1-5,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559145,0,0,0
+1757892225869,5,DELETE /owners/559145,204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559145,0,0,0
+1757892225875,5,POST /owners (create owner),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892225881,6,POST /owners/559146/pets,201,,Visit and Owner 1-5,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559146/pets,6,0,0
+1757892225888,7,POST /visits (create),201,,Visit and Owner 1-5,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,7,0,0
+1757892225896,11,GET /visits/{visitId},200,,Visit and Owner 1-5,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264881,10,0,0
+1757892225907,15,PUT /visits/{visitId},204,,Visit and Owner 1-5,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264881,0,0,0
+1757892225923,10,DELETE /visits/{visitId},204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264881,0,0,0
+1757892225934,12,POST /owners (create),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,11,0,0
+1757892225946,5,GET /owners/559147,200,,Visit and Owner 1-5,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559147,5,0,0
+1757892225952,7,PUT /owners/559147,204,,Visit and Owner 1-5,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559147,0,0,0
+1757892225960,6,DELETE /owners/559147,204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559147,0,0,0
+1757892225968,7,POST /owners (create owner),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892225975,15,POST /owners/559148/pets,201,,Visit and Owner 1-5,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559148/pets,15,0,0
+1757892225991,6,POST /visits (create),201,,Visit and Owner 1-5,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,6,0,0
+1757892225998,12,GET /visits/{visitId},200,,Visit and Owner 1-5,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264882,12,0,0
+1757892226011,10,PUT /visits/{visitId},204,,Visit and Owner 1-5,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264882,0,0,0
+1757892226023,12,DELETE /visits/{visitId},204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264882,0,0,0
+1757892226037,8,POST /owners (create),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892226047,6,GET /owners/559149,200,,Visit and Owner 1-5,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559149,5,0,0
+1757892226053,15,PUT /owners/559149,204,,Visit and Owner 1-5,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559149,0,0,0
+1757892226068,7,DELETE /owners/559149,204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559149,0,0,0
+1757892226076,6,POST /owners (create owner),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892226083,12,POST /owners/559150/pets,201,,Visit and Owner 1-5,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559150/pets,12,0,0
+1757892226096,6,POST /visits (create),201,,Visit and Owner 1-5,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892226102,9,GET /visits/{visitId},200,,Visit and Owner 1-5,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264883,9,0,0
+1757892226113,13,PUT /visits/{visitId},204,,Visit and Owner 1-5,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264883,0,0,0
+1757892226128,10,DELETE /visits/{visitId},204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264883,0,0,0
+1757892226140,6,POST /owners (create),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892226148,6,GET /owners/559151,200,,Visit and Owner 1-5,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559151,6,0,0
+1757892226155,11,PUT /owners/559151,204,,Visit and Owner 1-5,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559151,0,0,0
+1757892226167,12,DELETE /owners/559151,204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559151,0,0,0
+1757892226181,7,POST /owners (create owner),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892226189,7,POST /owners/559152/pets,201,,Visit and Owner 1-5,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559152/pets,7,0,0
+1757892226198,8,POST /visits (create),201,,Visit and Owner 1-5,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,7,0,0
+1757892226207,6,GET /visits/{visitId},200,,Visit and Owner 1-5,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264884,6,0,0
+1757892226216,16,PUT /visits/{visitId},204,,Visit and Owner 1-5,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264884,0,0,0
+1757892226233,13,DELETE /visits/{visitId},204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264884,0,0,0
+1757892226248,8,POST /owners (create),201,,Visit and Owner 1-5,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892226257,6,GET /owners/559153,200,,Visit and Owner 1-5,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559153,6,0,0
+1757892226263,13,PUT /owners/559153,204,,Visit and Owner 1-5,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559153,0,0,0
+1757892226277,7,DELETE /owners/559153,204,,Visit and Owner 1-5,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559153,0,0,0
+1757892231791,6,POST /owners (create owner),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,2
+1757892231799,12,POST /owners/559154/pets,201,,Visit and Owner 1-6,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559154/pets,12,0,0
+1757892231814,7,POST /visits (create),201,,Visit and Owner 1-6,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,7,0,0
+1757892231822,6,GET /visits/{visitId},200,,Visit and Owner 1-6,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264885,5,0,0
+1757892231828,10,PUT /visits/{visitId},204,,Visit and Owner 1-6,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264885,0,0,0
+1757892231839,14,DELETE /visits/{visitId},204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264885,0,0,0
+1757892231856,9,POST /owners (create),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,8,0,0
+1757892231867,8,GET /owners/559155,200,,Visit and Owner 1-6,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559155,8,0,0
+1757892231876,11,PUT /owners/559155,204,,Visit and Owner 1-6,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559155,0,0,0
+1757892231888,8,DELETE /owners/559155,204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559155,0,0,0
+1757892231899,8,POST /owners (create owner),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,8,0,0
+1757892231909,10,POST /owners/559156/pets,201,,Visit and Owner 1-6,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559156/pets,10,0,0
+1757892231922,10,POST /visits (create),201,,Visit and Owner 1-6,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,10,0,0
+1757892231933,7,GET /visits/{visitId},200,,Visit and Owner 1-6,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264886,7,0,0
+1757892231941,12,PUT /visits/{visitId},204,,Visit and Owner 1-6,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264886,0,0,0
+1757892231956,7,DELETE /visits/{visitId},204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264886,0,0,0
+1757892231964,5,POST /owners (create),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892231970,8,GET /owners/559157,200,,Visit and Owner 1-6,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559157,8,0,0
+1757892231979,10,PUT /owners/559157,204,,Visit and Owner 1-6,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559157,0,0,0
+1757892231990,6,DELETE /owners/559157,204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559157,0,0,0
+1757892231997,7,POST /owners (create owner),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892232004,11,POST /owners/559158/pets,201,,Visit and Owner 1-6,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559158/pets,10,0,0
+1757892232016,9,POST /visits (create),201,,Visit and Owner 1-6,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,8,0,0
+1757892232028,6,GET /visits/{visitId},200,,Visit and Owner 1-6,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264887,6,0,0
+1757892232037,14,PUT /visits/{visitId},204,,Visit and Owner 1-6,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264887,0,0,0
+1757892232052,9,DELETE /visits/{visitId},204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264887,0,0,0
+1757892232062,5,POST /owners (create),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892232069,6,GET /owners/559159,200,,Visit and Owner 1-6,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559159,6,0,0
+1757892232076,7,PUT /owners/559159,204,,Visit and Owner 1-6,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559159,0,0,0
+1757892232084,6,DELETE /owners/559159,204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559159,0,0,0
+1757892232090,5,POST /owners (create owner),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892232096,5,POST /owners/559160/pets,201,,Visit and Owner 1-6,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559160/pets,5,0,0
+1757892232102,6,POST /visits (create),201,,Visit and Owner 1-6,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,6,0,0
+1757892232108,5,GET /visits/{visitId},200,,Visit and Owner 1-6,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264888,5,0,0
+1757892232114,17,PUT /visits/{visitId},204,,Visit and Owner 1-6,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264888,0,0,0
+1757892232131,8,DELETE /visits/{visitId},204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264888,0,0,0
+1757892232139,13,POST /owners (create),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,12,0,0
+1757892232154,9,GET /owners/559161,200,,Visit and Owner 1-6,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559161,8,0,0
+1757892232164,6,PUT /owners/559161,204,,Visit and Owner 1-6,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559161,0,0,0
+1757892232171,4,DELETE /owners/559161,204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559161,0,0,0
+1757892232176,7,POST /owners (create owner),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892232183,13,POST /owners/559162/pets,201,,Visit and Owner 1-6,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559162/pets,13,0,0
+1757892232197,4,POST /visits (create),201,,Visit and Owner 1-6,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,4,0,0
+1757892232203,5,GET /visits/{visitId},200,,Visit and Owner 1-6,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264889,5,0,0
+1757892232210,21,PUT /visits/{visitId},204,,Visit and Owner 1-6,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264889,0,0,0
+1757892232231,10,DELETE /visits/{visitId},204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264889,0,0,0
+1757892232243,8,POST /owners (create),201,,Visit and Owner 1-6,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,8,0,0
+1757892232252,5,GET /owners/559163,200,,Visit and Owner 1-6,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559163,5,0,0
+1757892232258,5,PUT /owners/559163,204,,Visit and Owner 1-6,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559163,0,0,0
+1757892232264,4,DELETE /owners/559163,204,,Visit and Owner 1-6,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559163,0,0,0
+1757892237778,6,POST /owners (create owner),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,2
+1757892237786,7,POST /owners/559164/pets,201,,Visit and Owner 1-7,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559164/pets,7,0,0
+1757892237796,13,POST /visits (create),201,,Visit and Owner 1-7,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,12,0,0
+1757892237811,6,GET /visits/{visitId},200,,Visit and Owner 1-7,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264890,6,0,0
+1757892237818,13,PUT /visits/{visitId},204,,Visit and Owner 1-7,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264890,0,0,0
+1757892237833,7,DELETE /visits/{visitId},204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264890,0,0,0
+1757892237841,7,POST /owners (create),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892237849,8,GET /owners/559165,200,,Visit and Owner 1-7,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559165,8,0,0
+1757892237859,8,PUT /owners/559165,204,,Visit and Owner 1-7,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559165,0,0,0
+1757892237867,8,DELETE /owners/559165,204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559165,0,0,0
+1757892237877,7,POST /owners (create owner),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892237885,7,POST /owners/559166/pets,201,,Visit and Owner 1-7,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559166/pets,6,0,0
+1757892237893,5,POST /visits (create),201,,Visit and Owner 1-7,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,4,0,0
+1757892237898,8,GET /visits/{visitId},200,,Visit and Owner 1-7,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264891,8,0,0
+1757892237906,9,PUT /visits/{visitId},204,,Visit and Owner 1-7,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264891,0,0,0
+1757892237916,11,DELETE /visits/{visitId},204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264891,0,0,0
+1757892237928,7,POST /owners (create),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892237936,6,GET /owners/559167,200,,Visit and Owner 1-7,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559167,6,0,0
+1757892237942,9,PUT /owners/559167,204,,Visit and Owner 1-7,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559167,0,0,0
+1757892237951,7,DELETE /owners/559167,204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559167,0,0,0
+1757892237960,15,POST /owners (create owner),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,15,0,0
+1757892237979,13,POST /owners/559168/pets,201,,Visit and Owner 1-7,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559168/pets,12,0,0
+1757892237995,8,POST /visits (create),201,,Visit and Owner 1-7,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,8,0,0
+1757892238004,7,GET /visits/{visitId},200,,Visit and Owner 1-7,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264892,6,0,0
+1757892238011,11,PUT /visits/{visitId},204,,Visit and Owner 1-7,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264892,0,0,0
+1757892238023,9,DELETE /visits/{visitId},204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264892,0,0,0
+1757892238033,5,POST /owners (create),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892238039,10,GET /owners/559169,200,,Visit and Owner 1-7,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559169,10,0,0
+1757892238050,8,PUT /owners/559169,204,,Visit and Owner 1-7,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559169,0,0,0
+1757892238058,11,DELETE /owners/559169,204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559169,0,0,0
+1757892238070,6,POST /owners (create owner),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892238077,10,POST /owners/559170/pets,201,,Visit and Owner 1-7,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559170/pets,10,0,0
+1757892238089,13,POST /visits (create),201,,Visit and Owner 1-7,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,13,0,0
+1757892238103,6,GET /visits/{visitId},200,,Visit and Owner 1-7,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264893,6,0,0
+1757892238109,11,PUT /visits/{visitId},204,,Visit and Owner 1-7,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264893,0,0,0
+1757892238122,14,DELETE /visits/{visitId},204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264893,0,0,0
+1757892238137,5,POST /owners (create),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892238143,6,GET /owners/559171,200,,Visit and Owner 1-7,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559171,6,0,0
+1757892238149,7,PUT /owners/559171,204,,Visit and Owner 1-7,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559171,0,0,0
+1757892238157,6,DELETE /owners/559171,204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559171,0,0,0
+1757892238164,8,POST /owners (create owner),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892238174,15,POST /owners/559172/pets,201,,Visit and Owner 1-7,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559172/pets,14,0,0
+1757892238191,13,POST /visits (create),201,,Visit and Owner 1-7,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,12,0,0
+1757892238205,5,GET /visits/{visitId},200,,Visit and Owner 1-7,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264894,5,0,0
+1757892238211,10,PUT /visits/{visitId},204,,Visit and Owner 1-7,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264894,0,0,0
+1757892238222,9,DELETE /visits/{visitId},204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264894,0,0,0
+1757892238232,7,POST /owners (create),201,,Visit and Owner 1-7,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892238240,4,GET /owners/559173,200,,Visit and Owner 1-7,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559173,4,0,0
+1757892238245,9,PUT /owners/559173,204,,Visit and Owner 1-7,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559173,0,0,0
+1757892238255,7,DELETE /owners/559173,204,,Visit and Owner 1-7,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559173,0,0,0
+1757892243773,9,POST /owners (create owner),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,9,0,5
+1757892243785,10,POST /owners/559174/pets,201,,Visit and Owner 1-8,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559174/pets,10,0,0
+1757892243796,5,POST /visits (create),201,,Visit and Owner 1-8,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892243802,11,GET /visits/{visitId},200,,Visit and Owner 1-8,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264895,10,0,0
+1757892243815,14,PUT /visits/{visitId},204,,Visit and Owner 1-8,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264895,0,0,0
+1757892243830,10,DELETE /visits/{visitId},204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264895,0,0,0
+1757892243842,7,POST /owners (create),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892243849,10,GET /owners/559175,200,,Visit and Owner 1-8,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559175,9,0,0
+1757892243860,7,PUT /owners/559175,204,,Visit and Owner 1-8,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559175,0,0,0
+1757892243869,7,DELETE /owners/559175,204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559175,0,0,0
+1757892243877,6,POST /owners (create owner),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892243885,6,POST /owners/559176/pets,201,,Visit and Owner 1-8,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559176/pets,6,0,0
+1757892243893,6,POST /visits (create),201,,Visit and Owner 1-8,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892243901,5,GET /visits/{visitId},200,,Visit and Owner 1-8,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264896,5,0,0
+1757892243907,17,PUT /visits/{visitId},204,,Visit and Owner 1-8,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264896,0,0,0
+1757892243926,11,DELETE /visits/{visitId},204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264896,0,0,0
+1757892243938,14,POST /owners (create),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,13,0,0
+1757892243955,13,GET /owners/559177,200,,Visit and Owner 1-8,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559177,12,0,0
+1757892243969,9,PUT /owners/559177,204,,Visit and Owner 1-8,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559177,0,0,0
+1757892243979,6,DELETE /owners/559177,204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559177,0,0,0
+1757892243987,12,POST /owners (create owner),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,12,0,0
+1757892244001,8,POST /owners/559178/pets,201,,Visit and Owner 1-8,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559178/pets,8,0,0
+1757892244010,6,POST /visits (create),201,,Visit and Owner 1-8,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892244017,5,GET /visits/{visitId},200,,Visit and Owner 1-8,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264897,5,0,0
+1757892244023,13,PUT /visits/{visitId},204,,Visit and Owner 1-8,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264897,0,0,0
+1757892244038,10,DELETE /visits/{visitId},204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264897,0,0,0
+1757892244049,7,POST /owners (create),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892244057,7,GET /owners/559179,200,,Visit and Owner 1-8,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559179,7,0,0
+1757892244065,8,PUT /owners/559179,204,,Visit and Owner 1-8,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559179,0,0,0
+1757892244074,6,DELETE /owners/559179,204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559179,0,0,0
+1757892244081,6,POST /owners (create owner),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892244088,8,POST /owners/559180/pets,201,,Visit and Owner 1-8,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559180/pets,8,0,0
+1757892244097,6,POST /visits (create),201,,Visit and Owner 1-8,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,6,0,0
+1757892244104,9,GET /visits/{visitId},200,,Visit and Owner 1-8,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264898,9,0,0
+1757892244114,12,PUT /visits/{visitId},204,,Visit and Owner 1-8,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264898,0,0,0
+1757892244127,10,DELETE /visits/{visitId},204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264898,0,0,0
+1757892244137,9,POST /owners (create),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,8,0,0
+1757892244149,5,GET /owners/559181,200,,Visit and Owner 1-8,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559181,5,0,0
+1757892244154,8,PUT /owners/559181,204,,Visit and Owner 1-8,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559181,0,0,0
+1757892244163,7,DELETE /owners/559181,204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559181,0,0,0
+1757892244171,19,POST /owners (create owner),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,18,0,0
+1757892244191,7,POST /owners/559182/pets,201,,Visit and Owner 1-8,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559182/pets,7,0,0
+1757892244199,6,POST /visits (create),201,,Visit and Owner 1-8,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,6,0,0
+1757892244206,5,GET /visits/{visitId},200,,Visit and Owner 1-8,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264899,5,0,0
+1757892244212,12,PUT /visits/{visitId},204,,Visit and Owner 1-8,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264899,0,0,0
+1757892244224,12,DELETE /visits/{visitId},204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264899,0,0,0
+1757892244236,6,POST /owners (create),201,,Visit and Owner 1-8,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892244243,5,GET /owners/559183,200,,Visit and Owner 1-8,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559183,5,0,0
+1757892244249,9,PUT /owners/559183,204,,Visit and Owner 1-8,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559183,0,0,0
+1757892244259,12,DELETE /owners/559183,204,,Visit and Owner 1-8,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559183,0,0,0
+1757892249776,12,POST /owners (create owner),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,12,0,4
+1757892249789,7,POST /owners/559184/pets,201,,Visit and Owner 1-9,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559184/pets,7,0,0
+1757892249797,12,POST /visits (create),201,,Visit and Owner 1-9,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,11,0,0
+1757892249811,8,GET /visits/{visitId},200,,Visit and Owner 1-9,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264900,7,0,0
+1757892249820,14,PUT /visits/{visitId},204,,Visit and Owner 1-9,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264900,0,0,0
+1757892249835,14,DELETE /visits/{visitId},204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264900,0,0,0
+1757892249851,5,POST /owners (create),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892249857,5,GET /owners/559185,200,,Visit and Owner 1-9,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559185,5,0,0
+1757892249863,13,PUT /owners/559185,204,,Visit and Owner 1-9,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559185,0,0,0
+1757892249878,13,DELETE /owners/559185,204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559185,0,0,0
+1757892249891,6,POST /owners (create owner),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892249898,10,POST /owners/559186/pets,201,,Visit and Owner 1-9,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559186/pets,10,0,0
+1757892249911,5,POST /visits (create),201,,Visit and Owner 1-9,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892249917,5,GET /visits/{visitId},200,,Visit and Owner 1-9,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264901,5,0,0
+1757892249923,12,PUT /visits/{visitId},204,,Visit and Owner 1-9,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264901,0,0,0
+1757892249936,7,DELETE /visits/{visitId},204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264901,0,0,0
+1757892249944,10,POST /owners (create),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,10,0,0
+1757892249955,9,GET /owners/559187,200,,Visit and Owner 1-9,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559187,9,0,0
+1757892249964,11,PUT /owners/559187,204,,Visit and Owner 1-9,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559187,0,0,0
+1757892249977,6,DELETE /owners/559187,204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559187,0,0,0
+1757892249984,5,POST /owners (create owner),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892249990,12,POST /owners/559188/pets,201,,Visit and Owner 1-9,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559188/pets,12,0,0
+1757892250003,11,POST /visits (create),201,,Visit and Owner 1-9,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,11,0,0
+1757892250015,7,GET /visits/{visitId},200,,Visit and Owner 1-9,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264902,7,0,0
+1757892250023,15,PUT /visits/{visitId},204,,Visit and Owner 1-9,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264902,0,0,0
+1757892250039,12,DELETE /visits/{visitId},204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264902,0,0,0
+1757892250052,11,POST /owners (create),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,11,0,0
+1757892250064,5,GET /owners/559189,200,,Visit and Owner 1-9,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559189,5,0,0
+1757892250070,11,PUT /owners/559189,204,,Visit and Owner 1-9,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559189,0,0,0
+1757892250082,6,DELETE /owners/559189,204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559189,0,0,0
+1757892250089,6,POST /owners (create owner),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892250096,6,POST /owners/559190/pets,201,,Visit and Owner 1-9,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559190/pets,6,0,0
+1757892250103,10,POST /visits (create),201,,Visit and Owner 1-9,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,10,0,0
+1757892250114,6,GET /visits/{visitId},200,,Visit and Owner 1-9,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264903,6,0,0
+1757892250120,11,PUT /visits/{visitId},204,,Visit and Owner 1-9,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264903,0,0,0
+1757892250133,13,DELETE /visits/{visitId},204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264903,0,0,0
+1757892250146,7,POST /owners (create),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,7,0,0
+1757892250154,6,GET /owners/559191,200,,Visit and Owner 1-9,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559191,5,0,0
+1757892250160,9,PUT /owners/559191,204,,Visit and Owner 1-9,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559191,0,0,0
+1757892250169,6,DELETE /owners/559191,204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559191,0,0,0
+1757892250176,6,POST /owners (create owner),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892250182,13,POST /owners/559192/pets,201,,Visit and Owner 1-9,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559192/pets,13,0,0
+1757892250196,5,POST /visits (create),201,,Visit and Owner 1-9,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,5,0,0
+1757892250202,11,GET /visits/{visitId},200,,Visit and Owner 1-9,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264904,11,0,0
+1757892250214,22,PUT /visits/{visitId},204,,Visit and Owner 1-9,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264904,0,0,0
+1757892250236,10,DELETE /visits/{visitId},204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264904,0,0,0
+1757892250246,6,POST /owners (create),201,,Visit and Owner 1-9,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892250253,8,GET /owners/559193,200,,Visit and Owner 1-9,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559193,7,0,0
+1757892250261,10,PUT /owners/559193,204,,Visit and Owner 1-9,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559193,0,0,0
+1757892250272,7,DELETE /owners/559193,204,,Visit and Owner 1-9,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559193,0,0,0
+1757892255773,11,POST /owners (create owner),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,11,0,4
+1757892255785,10,POST /owners/559194/pets,201,,Visit and Owner 1-10,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559194/pets,10,0,0
+1757892255796,10,POST /visits (create),201,,Visit and Owner 1-10,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,8,0,0
+1757892255808,10,GET /visits/{visitId},200,,Visit and Owner 1-10,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264905,9,0,0
+1757892255820,17,PUT /visits/{visitId},204,,Visit and Owner 1-10,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264905,0,0,0
+1757892255837,14,DELETE /visits/{visitId},204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264905,0,0,0
+1757892255852,9,POST /owners (create),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,9,0,0
+1757892255862,11,GET /owners/559195,200,,Visit and Owner 1-10,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559195,10,0,0
+1757892255875,11,PUT /owners/559195,204,,Visit and Owner 1-10,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559195,0,0,0
+1757892255887,11,DELETE /owners/559195,204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559195,0,0,0
+1757892255899,12,POST /owners (create owner),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,11,0,0
+1757892255913,9,POST /owners/559196/pets,201,,Visit and Owner 1-10,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559196/pets,9,0,0
+1757892255923,7,POST /visits (create),201,,Visit and Owner 1-10,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,7,0,0
+1757892255931,7,GET /visits/{visitId},200,,Visit and Owner 1-10,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264906,6,0,0
+1757892255938,15,PUT /visits/{visitId},204,,Visit and Owner 1-10,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264906,0,0,0
+1757892255954,14,DELETE /visits/{visitId},204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264906,0,0,0
+1757892255968,6,POST /owners (create),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892255976,6,GET /owners/559197,200,,Visit and Owner 1-10,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559197,6,0,0
+1757892255983,7,PUT /owners/559197,204,,Visit and Owner 1-10,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559197,0,0,0
+1757892255990,7,DELETE /owners/559197,204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559197,0,0,0
+1757892255998,5,POST /owners (create owner),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,5,0,0
+1757892256005,14,POST /owners/559198/pets,201,,Visit and Owner 1-10,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559198/pets,14,0,0
+1757892256020,7,POST /visits (create),201,,Visit and Owner 1-10,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,7,0,0
+1757892256029,11,GET /visits/{visitId},200,,Visit and Owner 1-10,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264907,10,0,0
+1757892256042,13,PUT /visits/{visitId},204,,Visit and Owner 1-10,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264907,0,0,0
+1757892256057,14,DELETE /visits/{visitId},204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264907,0,0,0
+1757892256072,11,POST /owners (create),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,10,0,0
+1757892256084,9,GET /owners/559199,200,,Visit and Owner 1-10,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559199,9,0,0
+1757892256094,13,PUT /owners/559199,204,,Visit and Owner 1-10,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559199,0,0,0
+1757892256109,14,DELETE /owners/559199,204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559199,0,0,0
+1757892256123,8,POST /owners (create owner),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,8,0,0
+1757892256132,13,POST /owners/559200/pets,201,,Visit and Owner 1-10,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559200/pets,13,0,0
+1757892256145,10,POST /visits (create),201,,Visit and Owner 1-10,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,9,0,0
+1757892256157,10,GET /visits/{visitId},200,,Visit and Owner 1-10,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264908,10,0,0
+1757892256168,17,PUT /visits/{visitId},204,,Visit and Owner 1-10,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264908,0,0,0
+1757892256187,15,DELETE /visits/{visitId},204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264908,0,0,0
+1757892256204,11,POST /owners (create),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,11,0,0
+1757892256216,13,GET /owners/559201,200,,Visit and Owner 1-10,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559201,12,0,0
+1757892256231,9,PUT /owners/559201,204,,Visit and Owner 1-10,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559201,0,0,0
+1757892256241,12,DELETE /owners/559201,204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559201,0,0,0
+1757892256254,7,POST /owners (create owner),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892256263,11,POST /owners/559202/pets,201,,Visit and Owner 1-10,text,true,,572,322,1,1,http://localhost:9966/petclinic/api/owners/559202/pets,10,0,0
+1757892256275,9,POST /visits (create),201,,Visit and Owner 1-10,text,true,,540,300,1,1,http://localhost:9966/petclinic/api/visits,9,0,0
+1757892256285,10,GET /visits/{visitId},200,,Visit and Owner 1-10,text,true,,510,201,1,1,http://localhost:9966/petclinic/api/visits/264909,10,0,0
+1757892256297,23,PUT /visits/{visitId},204,,Visit and Owner 1-10,text,true,,393,326,1,1,http://localhost:9966/petclinic/api/visits/264909,0,0,0
+1757892256322,12,DELETE /visits/{visitId},204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/visits/264909,0,0,0
+1757892256335,7,POST /owners (create),201,,Visit and Owner 1-10,text,true,,584,345,1,1,http://localhost:9966/petclinic/api/owners,6,0,0
+1757892256343,9,GET /owners/559203,200,,Visit and Owner 1-10,text,true,,554,201,1,1,http://localhost:9966/petclinic/api/owners/559203,8,0,0
+1757892256354,13,PUT /owners/559203,204,,Visit and Owner 1-10,text,true,,393,357,1,1,http://localhost:9966/petclinic/api/owners/559203,0,0,0
+1757892256369,7,DELETE /owners/559203,204,,Visit and Owner 1-10,,true,,361,223,1,1,http://localhost:9966/petclinic/api/owners/559203,0,0,0
