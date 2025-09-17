@@ -1,0 +1,539 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1758110288993,9,GET /vets (unauth),401,,TG00A_Security_Unauth 1-1,,true,,330,188,1,5,http://localhost:9966/petclinic/api/vets,7,0,1
+1758110288932,136,GET /vets (auth),200,,TG00B_Security_Auth 2-1,text,true,,1029,227,1,4,http://localhost:9966/petclinic/api/vets,136,0,32
+1758110288992,92,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,1029,227,1,3,http://localhost:9966/petclinic/api/vets,92,0,1
+1758110288932,135,POST /vets,201,,TG10_VetCRUD_Smoke 3-1,text,true,,518,319,1,4,http://localhost:9966/petclinic/api/vets,134,0,32
+1758110289078,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-1,text,true,,1029,227,1,3,http://localhost:9966/petclinic/api/vets,83,0,1
+1758110289374,96,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-1,text,true,,1029,227,1,3,http://localhost:9966/petclinic/api/vets,96,0,0
+1758110289408,85,POST /vets,201,,TG20B_MixedCRUD_Load 5-1,text,true,,520,323,1,3,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110289638,88,GET /vets/{id},200,,TG10_VetCRUD_Smoke 3-1,text,true,,494,230,1,3,http://localhost:9966/petclinic/api/vets/69,87,0,0
+1758110289803,101,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-1,text,true,,1094,227,1,3,http://localhost:9966/petclinic/api/vets,101,0,0
+1758110290078,88,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-1,text,true,,496,230,1,3,http://localhost:9966/petclinic/api/vets/70,87,0,0
+1758110290075,105,PUT /vets/{id},204,,TG10_VetCRUD_Smoke 3-1,text,true,,393,361,1,3,http://localhost:9966/petclinic/api/vets/69,0,0,0
+1758110290390,89,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-1,text,true,,393,337,1,3,http://localhost:9966/petclinic/api/vets/70,0,0,0
+1758110290425,91,GET /vets/{id} (after update),200,,TG10_VetCRUD_Smoke 3-1,text,true,,522,230,1,3,http://localhost:9966/petclinic/api/vets/69,91,0,0
+1758110290443,101,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-1,text,true,,1123,227,2,4,http://localhost:9966/petclinic/api/vets,101,0,0
+1758110290743,101,DELETE /vets/{id},204,,TG10_VetCRUD_Smoke 3-1,,true,,361,252,1,4,http://localhost:9966/petclinic/api/vets/69,0,0,0
+1758110290867,119,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-1,,true,,361,252,1,4,http://localhost:9966/petclinic/api/vets/70,0,0,0
+1758110290946,99,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-1,text,true,,966,227,2,4,http://localhost:9966/petclinic/api/vets,98,0,0
+1758110290963,98,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-2,text,true,,966,227,1,3,http://localhost:9966/petclinic/api/vets,98,0,2
+1758110291252,86,GET /vets/{id} (after delete),404,,TG10_VetCRUD_Smoke 3-1,,true,,380,230,1,3,http://localhost:9966/petclinic/api/vets/69,86,0,0
+1758110291303,155,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,966,227,1,2,http://localhost:9966/petclinic/api/vets,155,0,0
+1758110291325,162,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-2,text,true,,966,227,1,2,http://localhost:9966/petclinic/api/vets,162,0,0
+1758110291674,118,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,966,227,2,3,http://localhost:9966/petclinic/api/vets,118,0,0
+1758110291828,98,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-2,text,true,,966,227,1,3,http://localhost:9966/petclinic/api/vets,97,0,0
+1758110292126,97,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-2,text,true,,966,227,2,3,http://localhost:9966/petclinic/api/vets,97,0,3
+1758110292274,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,966,227,2,3,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110292428,97,POST /vets,201,,TG20B_MixedCRUD_Load 5-2,text,true,,520,323,2,3,http://localhost:9966/petclinic/api/vets,97,0,0
+1758110292469,88,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-2,text,true,,1031,227,2,4,http://localhost:9966/petclinic/api/vets,88,0,0
+1758110292610,88,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,1031,227,2,4,http://localhost:9966/petclinic/api/vets,88,0,0
+1758110292823,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-3,text,true,,1031,227,2,4,http://localhost:9966/petclinic/api/vets,87,0,3
+1758110293047,94,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-2,text,true,,496,230,2,4,http://localhost:9966/petclinic/api/vets/71,93,0,0
+1758110293085,91,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-2,text,true,,1031,227,2,4,http://localhost:9966/petclinic/api/vets,91,0,0
+1758110293220,90,POST /vets,201,,TG20B_MixedCRUD_Load 5-1,text,true,,520,323,2,3,http://localhost:9966/petclinic/api/vets,90,0,0
+1758110293332,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-3,text,true,,1096,227,1,3,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110293561,91,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,text,true,,393,337,2,3,http://localhost:9966/petclinic/api/vets/71,0,0,0
+1758110293660,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-1,text,true,,496,230,2,3,http://localhost:9966/petclinic/api/vets/72,76,0,0
+1758110293945,102,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-1,text,true,,393,337,2,3,http://localhost:9966/petclinic/api/vets/72,0,0,0
+1758110293990,99,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-3,text,true,,1098,227,1,3,http://localhost:9966/petclinic/api/vets,99,0,0
+1758110294129,96,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,,true,,361,252,2,3,http://localhost:9966/petclinic/api/vets/71,0,0,0
+1758110294429,103,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-2,text,true,,1032,227,2,3,http://localhost:9966/petclinic/api/vets,103,0,0
+1758110294466,91,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-3,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,91,0,0
+1758110294641,91,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-1,,true,,361,252,3,5,http://localhost:9966/petclinic/api/vets/72,0,0,0
+1758110294750,88,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-2,text,true,,966,227,3,5,http://localhost:9966/petclinic/api/vets,88,0,0
+1758110294790,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-3,text,true,,966,227,2,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110294898,106,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-4,text,true,,966,227,1,4,http://localhost:9966/petclinic/api/vets,106,0,1
+1758110294953,78,POST /vets,201,,TG20B_MixedCRUD_Load 5-3,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,78,0,1
+1758110295200,104,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-2,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,104,0,0
+1758110295225,89,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110295425,90,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-4,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110295521,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-2,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110295566,87,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-3,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/73,87,0,0
+1758110295747,110,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,110,0,0
+1758110295768,102,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-4,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,102,0,0
+1758110295943,86,POST /vets,201,,TG20B_MixedCRUD_Load 5-2,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110296089,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-4,text,true,,1096,227,1,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110296206,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-1,text,true,,1096,227,3,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110296220,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-3,text,true,,393,337,2,3,http://localhost:9966/petclinic/api/vets/73,0,0,0
+1758110296541,80,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-2,text,true,,496,230,2,4,http://localhost:9966/petclinic/api/vets/74,79,0,0
+1758110296626,75,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-3,,true,,361,252,2,4,http://localhost:9966/petclinic/api/vets/73,0,0,0
+1758110296769,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-4,text,true,,1031,227,2,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110296844,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-5,text,true,,1031,227,1,3,http://localhost:9966/petclinic/api/vets,78,0,2
+1758110296992,87,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,text,true,,393,337,2,3,http://localhost:9966/petclinic/api/vets/74,0,0,0
+1758110297136,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-5,text,true,,1032,227,1,3,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110297241,76,POST /vets,201,,TG20B_MixedCRUD_Load 5-3,text,true,,520,323,2,3,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110297451,80,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,,true,,361,252,2,3,http://localhost:9966/petclinic/api/vets/74,0,0,0
+1758110297727,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-5,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110297795,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-2,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110297822,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,1
+1758110297888,78,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-3,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/75,78,0,0
+1758110298299,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-2,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110298325,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-5,text,true,,1096,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110298444,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1096,227,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110298487,78,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-3,text,true,,393,337,3,5,http://localhost:9966/petclinic/api/vets/75,0,0,0
+1758110298746,90,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-5,text,true,,1097,227,2,5,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110298781,80,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-3,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/75,0,0,0
+1758110298792,80,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-2,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/76,80,0,0
+1758110299047,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-6,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,85,0,2
+1758110299116,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110299195,75,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-3,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,75,0,0
+1758110299268,77,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/76,0,0,0
+1758110299499,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110299566,77,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/76,0,0,0
+1758110299603,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-6,text,true,,966,227,1,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110299712,77,POST /vets,201,,TG20B_MixedCRUD_Load 5-3,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110300023,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-6,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110300031,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110300112,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-2,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110300205,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-3,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/77,82,0,0
+1758110300312,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1096,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110300328,77,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-6,text,true,,1096,227,1,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110300571,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-3,text,true,,393,337,4,6,http://localhost:9966/petclinic/api/vets/77,0,0,0
+1758110300695,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-6,text,true,,1097,227,2,6,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110300753,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-2,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/78,82,0,0
+1758110300889,83,POST /vets,201,,TG20B_MixedCRUD_Load 5-5,text,true,,520,323,4,5,http://localhost:9966/petclinic/api/vets,83,0,2
+1758110300991,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1162,227,4,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110301026,82,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-3,,true,,361,252,4,5,http://localhost:9966/petclinic/api/vets/77,0,0,0
+1758110301042,87,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,text,true,,393,337,4,5,http://localhost:9966/petclinic/api/vets/78,0,0,0
+1758110301093,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-7,text,true,,1097,227,1,5,http://localhost:9966/petclinic/api/vets,81,0,1
+1758110301432,89,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-5,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/79,89,0,0
+1758110301434,88,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1097,227,4,5,http://localhost:9966/petclinic/api/vets,88,0,0
+1758110301465,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-2,,true,,361,252,4,5,http://localhost:9966/petclinic/api/vets/78,0,0,0
+1758110301513,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-7,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110301635,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-3,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110301851,82,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/79,0,0,0
+1758110301912,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-4,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110301984,77,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-7,text,true,,1032,227,1,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110302282,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-3,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110302458,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-4,text,true,,520,323,3,5,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110302522,76,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,,true,,361,252,3,5,http://localhost:9966/petclinic/api/vets/79,0,0,0
+1758110302604,76,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-7,text,true,,1031,227,2,5,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110302762,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-3,text,true,,1031,227,3,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110302944,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-7,text,true,,1031,227,2,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110303005,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-8,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,2
+1758110303062,75,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-4,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/80,75,0,0
+1758110303112,75,POST /vets,201,,TG20B_MixedCRUD_Load 5-5,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,75,0,0
+1758110303352,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-3,text,true,,1096,227,3,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110303364,78,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-4,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/80,0,0,0
+1758110303444,73,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-5,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/81,73,0,0
+1758110303514,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-8,text,true,,1097,227,1,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110303645,81,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-3,text,true,,1097,227,4,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110303780,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,text,true,,393,337,4,5,http://localhost:9966/petclinic/api/vets/81,0,0,0
+1758110304015,86,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-8,text,true,,1098,227,1,5,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110304021,80,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-4,,true,,361,252,4,5,http://localhost:9966/petclinic/api/vets/80,0,0,0
+1758110304084,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-6,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,82,0,2
+1758110304107,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-3,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110304219,86,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,,true,,361,252,2,3,http://localhost:9966/petclinic/api/vets/81,0,0,0
+1758110304624,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-8,text,true,,1031,227,2,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110304703,74,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-6,text,true,,496,230,2,4,http://localhost:9966/petclinic/api/vets/82,74,0,0
+1758110304858,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-5,text,true,,1031,227,2,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110305015,109,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-6,text,true,,393,337,2,4,http://localhost:9966/petclinic/api/vets/82,0,0,0
+1758110305028,109,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-9,text,true,,1032,227,2,4,http://localhost:9966/petclinic/api/vets,109,0,3
+1758110305226,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-8,text,true,,1032,227,2,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110305397,80,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-6,,true,,361,252,2,3,http://localhost:9966/petclinic/api/vets/82,0,0,0
+1758110305397,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-5,text,true,,1032,227,2,3,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110305465,76,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-9,text,true,,966,227,1,3,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110305821,83,POST /vets,201,,TG20B_MixedCRUD_Load 5-5,text,true,,520,323,2,3,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110305866,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1031,227,2,3,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110305891,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-9,text,true,,1031,227,1,3,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110306251,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-9,text,true,,1031,227,1,3,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110306314,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1031,227,2,3,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110306473,80,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-5,text,true,,496,230,3,5,http://localhost:9966/petclinic/api/vets/83,80,0,0
+1758110306584,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-9,text,true,,1031,227,2,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110306823,84,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/83,0,0,0
+1758110306853,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-7,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,80,0,3
+1758110306981,76,POST /vets,201,,TG20B_MixedCRUD_Load 5-6,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110307106,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-10,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,87,0,2
+1758110307150,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-7,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110307224,75,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/83,0,0,0
+1758110307528,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-10,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110307600,77,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-6,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/84,77,0,0
+1758110307616,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-5,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110307764,81,POST /vets,201,,TG20B_MixedCRUD_Load 5-7,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110307884,77,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-10,text,true,,1096,227,1,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110307927,76,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-6,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/84,0,0,0
+1758110308030,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-5,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110308251,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-10,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110308344,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-7,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/85,76,0,0
+1758110308603,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-6,,true,,361,252,3,5,http://localhost:9966/petclinic/api/vets/84,0,0,0
+1758110308615,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-5,text,true,,1031,227,3,5,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110308727,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-10,text,true,,1031,227,2,5,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110308974,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-11,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,89,0,2
+1758110308987,78,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/85,0,0,0
+1758110309129,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-5,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110309209,75,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,75,0,0
+1758110309294,76,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/85,0,0,0
+1758110309559,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-11,text,true,,1031,227,1,5,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110309709,81,POST /vets,201,,TG20B_MixedCRUD_Load 5-7,text,true,,520,323,4,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110309804,75,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-5,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/86,75,0,0
+1758110309847,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1096,227,4,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110309880,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-11,text,true,,1096,227,1,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110310101,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-8,text,true,,1096,227,4,5,http://localhost:9966/petclinic/api/vets,86,0,2
+1758110310136,79,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-7,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/87,79,0,0
+1758110310169,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,text,true,,393,337,4,5,http://localhost:9966/petclinic/api/vets/86,0,0,0
+1758110310207,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-11,text,true,,1097,227,1,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110310435,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1097,227,4,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110310502,82,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-5,,true,,361,252,4,6,http://localhost:9966/petclinic/api/vets/86,0,0,0
+1758110310510,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-11,text,true,,1031,227,2,6,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110310541,82,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,text,true,,393,337,4,5,http://localhost:9966/petclinic/api/vets/87,0,0,0
+1758110310658,76,POST /vets,201,,TG20B_MixedCRUD_Load 5-8,text,true,,520,323,4,5,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110310825,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,,true,,361,252,4,5,http://localhost:9966/petclinic/api/vets/87,0,0,0
+1758110310940,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1031,227,4,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110311081,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-12,text,true,,1031,227,1,5,http://localhost:9966/petclinic/api/vets,80,0,2
+1758110311128,84,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-8,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/88,84,0,0
+1758110311145,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-5,text,true,,1031,227,4,5,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110311161,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-7,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110311418,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110311567,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-12,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110311780,85,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/88,0,0,0
+1758110311821,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-7,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110311834,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-6,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110311985,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-12,text,true,,1097,227,1,3,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110312111,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-7,text,true,,496,230,2,3,http://localhost:9966/petclinic/api/vets/89,76,0,0
+1758110312228,75,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,,true,,361,252,2,3,http://localhost:9966/petclinic/api/vets/88,0,0,0
+1758110312304,75,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-12,text,true,,1031,227,1,3,http://localhost:9966/petclinic/api/vets,75,0,0
+1758110312636,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-12,text,true,,1031,227,2,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110312663,77,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/89,0,0,0
+1758110312853,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,86,0,2
+1758110312900,78,POST /vets,201,,TG20B_MixedCRUD_Load 5-8,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110313089,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-13,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,82,0,2
+1758110313207,79,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/89,0,0,0
+1758110313267,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110313289,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-8,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/90,82,0,0
+1758110313516,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-13,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110313618,81,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110313634,79,POST /vets,201,,TG20B_MixedCRUD_Load 5-7,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110313865,91,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/90,0,0,0
+1758110313870,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-13,text,true,,1096,227,1,4,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110314149,83,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-7,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/91,83,0,0
+1758110314158,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110314330,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-13,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110314358,75,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/90,0,0,0
+1758110314716,87,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1031,227,3,5,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110314761,79,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,text,true,,393,337,3,5,http://localhost:9966/petclinic/api/vets/91,0,0,0
+1758110314893,88,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-14,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,88,0,2
+1758110314904,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-13,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110314943,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-8,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110315204,85,POST /vets,201,,TG20B_MixedCRUD_Load 5-9,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110315224,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/91,0,0,0
+1758110315254,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-14,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110315293,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-8,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110315506,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-9,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/92,76,0,0
+1758110315607,81,POST /vets,201,,TG20B_MixedCRUD_Load 5-7,text,true,,520,323,4,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110315728,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-14,text,true,,1096,227,1,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110315820,76,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-8,text,true,,1096,227,4,5,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110315934,82,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-9,text,true,,393,337,4,5,http://localhost:9966/petclinic/api/vets/92,0,0,0
+1758110316060,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1097,227,4,5,http://localhost:9966/petclinic/api/vets,83,0,1
+1758110316069,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-14,text,true,,1097,227,1,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110316182,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-7,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/93,76,0,0
+1758110316241,77,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-9,,true,,361,252,4,5,http://localhost:9966/petclinic/api/vets/92,0,0,0
+1758110316364,89,POST /vets,201,,TG20B_MixedCRUD_Load 5-8,text,true,,520,323,4,5,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110316399,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-14,text,true,,1096,227,1,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110316458,76,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1096,227,4,4,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110316542,76,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,text,true,,393,337,4,5,http://localhost:9966/petclinic/api/vets/93,0,0,0
+1758110316586,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1097,227,4,5,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110316870,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-7,,true,,361,252,4,5,http://localhost:9966/petclinic/api/vets/93,0,0,0
+1758110316926,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1031,227,4,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110316983,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-15,text,true,,1031,227,1,5,http://localhost:9966/petclinic/api/vets,85,0,2
+1758110316994,88,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-8,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/94,88,0,0
+1758110317085,91,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1031,227,4,5,http://localhost:9966/petclinic/api/vets,91,0,0
+1758110317172,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-7,text,true,,1031,227,4,5,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110317252,79,POST /vets,201,,TG20B_MixedCRUD_Load 5-9,text,true,,520,323,4,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110317465,85,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,text,true,,393,337,4,5,http://localhost:9966/petclinic/api/vets/94,0,0,0
+1758110317486,77,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-15,text,true,,1097,227,1,5,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110317620,79,POST /vets,201,,TG20B_MixedCRUD_Load 5-10,text,true,,520,323,4,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110317693,73,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-9,text,true,,496,230,4,5,http://localhost:9966/petclinic/api/vets/95,73,0,0
+1758110317766,76,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-15,text,true,,1162,227,1,5,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110317827,76,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-7,text,true,,1162,227,4,5,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110317983,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/94,0,0,0
+1758110318173,81,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-10,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/96,81,0,0
+1758110318173,82,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-9,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/95,0,0,0
+1758110318292,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-8,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110318398,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-15,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110318573,82,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-9,,true,,361,252,4,6,http://localhost:9966/petclinic/api/vets/95,0,0,0
+1758110318590,76,POST /vets,201,,TG20B_MixedCRUD_Load 5-8,text,true,,520,323,4,6,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110318742,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-10,text,true,,393,337,4,6,http://localhost:9966/petclinic/api/vets/96,0,0,0
+1758110318759,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-16,text,true,,1097,227,2,6,http://localhost:9966/petclinic/api/vets,80,0,2
+1758110318907,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-8,text,true,,496,230,4,6,http://localhost:9966/petclinic/api/vets/97,82,0,0
+1758110318961,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-15,text,true,,1097,227,2,6,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110319021,85,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-11,text,true,,1097,227,4,5,http://localhost:9966/petclinic/api/vets,85,0,1
+1758110319024,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-9,text,true,,1097,227,4,5,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110319122,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-16,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110319367,87,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/97,0,0,0
+1758110319371,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-11,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110319381,83,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-10,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/96,0,0,0
+1758110319721,85,POST /vets,201,,TG20B_MixedCRUD_Load 5-11,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110319717,91,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,91,0,0
+1758110319740,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-16,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110319884,79,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/97,0,0,0
+1758110320099,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-16,text,true,,1031,227,1,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110320246,77,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-11,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/98,77,0,0
+1758110320352,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110320355,77,POST /vets,201,,TG20B_MixedCRUD_Load 5-8,text,true,,520,323,3,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110320635,84,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,text,true,,393,337,3,5,http://localhost:9966/petclinic/api/vets/98,0,0,0
+1758110320706,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-16,text,true,,1097,227,2,5,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110320759,88,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-17,text,true,,1097,227,1,4,http://localhost:9966/petclinic/api/vets,88,0,1
+1758110320793,81,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-8,text,true,,496,230,3,4,http://localhost:9966/petclinic/api/vets/99,81,0,0
+1758110320798,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1097,227,3,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110320986,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/98,0,0,0
+1758110321130,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1031,227,3,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110321261,80,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,text,true,,393,337,3,4,http://localhost:9966/petclinic/api/vets/99,0,0,0
+1758110321310,77,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-17,text,true,,1032,227,1,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110321550,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-11,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110321653,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-10,text,true,,1098,227,4,5,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110321699,76,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-17,text,true,,1098,227,1,4,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110321830,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-8,,true,,361,252,3,4,http://localhost:9966/petclinic/api/vets/99,0,0,0
+1758110322036,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,1032,227,2,3,http://localhost:9966/petclinic/api/vets,80,0,2
+1758110322138,79,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-11,text,true,,497,231,2,3,http://localhost:9966/petclinic/api/vets/100,79,0,0
+1758110322202,76,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-17,text,true,,1032,227,1,3,http://localhost:9966/petclinic/api/vets,75,0,0
+1758110322583,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-17,text,true,,1032,227,2,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110322604,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,text,true,,393,339,2,3,http://localhost:9966/petclinic/api/vets/100,0,0,0
+1758110322643,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,1033,227,2,3,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110322983,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-18,text,true,,1033,227,1,3,http://localhost:9966/petclinic/api/vets,82,0,2
+1758110323039,75,POST /vets,201,,TG20B_MixedCRUD_Load 5-12,text,true,,522,323,2,3,http://localhost:9966/petclinic/api/vets,75,0,0
+1758110323286,78,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,,true,,361,253,2,3,http://localhost:9966/petclinic/api/vets/100,0,0,0
+1758110323629,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-12,text,true,,497,231,2,3,http://localhost:9966/petclinic/api/vets/101,82,0,0
+1758110323637,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-18,text,true,,1032,227,1,3,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110323789,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-11,text,true,,1032,227,2,3,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110324073,80,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-12,text,true,,393,339,2,3,http://localhost:9966/petclinic/api/vets/101,0,0,0
+1758110324093,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-18,text,true,,1033,227,1,3,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110324282,91,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-11,text,true,,1033,227,2,3,http://localhost:9966/petclinic/api/vets,91,0,0
+1758110324378,77,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-12,,true,,361,253,2,3,http://localhost:9966/petclinic/api/vets/101,0,0,0
+1758110324616,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-18,text,true,,966,227,2,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110324813,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,966,227,3,5,http://localhost:9966/petclinic/api/vets,83,0,1
+1758110324897,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,966,227,3,5,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110324912,87,POST /vets,201,,TG20B_MixedCRUD_Load 5-11,text,true,,522,323,3,5,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110324931,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-19,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,87,0,1
+1758110325161,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-18,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110325450,99,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-11,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/102,99,0,0
+1758110325460,102,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,102,0,0
+1758110325467,95,POST /vets,201,,TG20B_MixedCRUD_Load 5-13,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,95,0,0
+1758110325499,96,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-19,text,true,,1098,227,1,4,http://localhost:9966/petclinic/api/vets,96,0,0
+1758110325767,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,1098,227,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110325849,73,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-13,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/103,73,0,0
+1758110326092,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-19,text,true,,1098,227,1,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110326099,85,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/102,0,0,0
+1758110326174,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-13,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/103,0,0,0
+1758110326311,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,1100,227,3,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110326454,91,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,,true,,361,253,3,5,http://localhost:9966/petclinic/api/vets/102,0,0,0
+1758110326472,86,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-13,,true,,361,253,3,5,http://localhost:9966/petclinic/api/vets/103,0,0,0
+1758110326761,85,POST /vets,201,,TG20B_MixedCRUD_Load 5-12,text,true,,522,323,3,5,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110326761,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-19,text,true,,966,227,2,5,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110326988,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-11,text,true,,1032,227,3,5,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110327104,86,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-20,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,86,0,2
+1758110327118,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,1032,227,3,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110327124,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-12,text,true,,497,231,3,5,http://localhost:9966/petclinic/api/vets/104,82,0,0
+1758110327212,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-19,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110327447,84,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-12,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/104,0,0,0
+1758110327488,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-11,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110327647,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,1099,227,4,5,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110327749,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-20,text,true,,1099,227,1,5,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110327784,87,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-12,,true,,361,253,4,5,http://localhost:9966/petclinic/api/vets/104,0,0,0
+1758110327812,87,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-14,text,true,,1032,227,4,5,http://localhost:9966/petclinic/api/vets,87,0,1
+1758110327953,88,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-11,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/105,88,0,0
+1758110327988,83,POST /vets,201,,TG20B_MixedCRUD_Load 5-13,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110328230,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,1098,227,4,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110328374,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-14,text,true,,1098,227,4,5,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110328424,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-20,text,true,,1098,227,1,5,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110328476,86,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,text,true,,393,339,4,6,http://localhost:9966/petclinic/api/vets/105,0,0,0
+1758110328523,88,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-12,text,true,,1099,227,4,6,http://localhost:9966/petclinic/api/vets,88,0,0
+1758110328552,83,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-13,text,true,,497,231,4,6,http://localhost:9966/petclinic/api/vets/106,83,0,0
+1758110328738,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-14,text,true,,1099,227,4,6,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110328836,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-20,text,true,,1099,227,2,6,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110328885,79,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-13,text,true,,393,339,4,6,http://localhost:9966/petclinic/api/vets/106,0,0,0
+1758110328963,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,,true,,361,253,4,6,http://localhost:9966/petclinic/api/vets/105,0,0,0
+1758110329058,95,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-21,text,true,,1033,227,2,6,http://localhost:9966/petclinic/api/vets,95,0,1
+1758110329119,100,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-14,text,true,,1033,227,4,6,http://localhost:9966/petclinic/api/vets,100,0,0
+1758110329137,108,POST /vets,201,,TG20B_MixedCRUD_Load 5-12,text,true,,522,323,4,6,http://localhost:9966/petclinic/api/vets,108,0,0
+1758110329181,105,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-13,,true,,361,253,4,6,http://localhost:9966/petclinic/api/vets/106,0,0,0
+1758110329210,102,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-20,text,true,,1032,227,2,6,http://localhost:9966/petclinic/api/vets,102,0,0
+1758110329330,84,POST /vets,201,,TG20B_MixedCRUD_Load 5-11,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110329631,85,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-14,text,true,,1098,227,4,5,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110329677,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-11,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/108,82,0,0
+1758110329718,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-21,text,true,,1098,227,1,5,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110329731,86,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-12,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/107,86,0,0
+1758110329776,85,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,1098,227,4,5,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110330096,86,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-21,text,true,,1098,227,1,5,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110330122,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-14,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110330187,81,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,text,true,,393,339,4,5,http://localhost:9966/petclinic/api/vets/108,0,0,0
+1758110330222,80,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-12,text,true,,393,339,4,5,http://localhost:9966/petclinic/api/vets/107,0,0,0
+1758110330317,76,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,1166,227,4,5,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110330395,78,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-21,text,true,,1166,227,1,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110330413,75,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-14,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/109,75,0,0
+1758110330764,89,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-12,,true,,361,253,5,7,http://localhost:9966/petclinic/api/vets/107,0,0,0
+1758110330786,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-22,text,true,,1099,227,2,6,http://localhost:9966/petclinic/api/vets,87,0,1
+1758110330807,85,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-11,,true,,361,253,4,6,http://localhost:9966/petclinic/api/vets/108,0,0,0
+1758110330870,88,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-21,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,88,0,0
+1758110330874,89,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110330995,78,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-14,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/109,0,0,0
+1758110331103,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-15,text,true,,1033,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,1
+1758110331254,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-22,text,true,,1033,227,1,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110331411,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,1033,227,3,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110331475,77,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-14,,true,,361,253,3,4,http://localhost:9966/petclinic/api/vets/109,0,0,0
+1758110331649,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-22,text,true,,966,227,1,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110331664,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-15,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110331869,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-14,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110331982,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-13,text,true,,1098,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110332000,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-22,text,true,,1098,227,1,3,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110332135,84,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-15,text,true,,497,231,2,3,http://localhost:9966/petclinic/api/vets/110,84,0,0
+1758110332189,85,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-14,text,true,,497,231,2,3,http://localhost:9966/petclinic/api/vets/111,85,0,0
+1758110332609,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-22,text,true,,1098,227,2,4,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110332785,82,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-14,text,true,,393,339,2,3,http://localhost:9966/petclinic/api/vets/111,0,0,0
+1758110332819,81,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,text,true,,393,339,2,3,http://localhost:9966/petclinic/api/vets/110,0,0,0
+1758110332981,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-23,text,true,,1100,227,1,3,http://localhost:9966/petclinic/api/vets,89,0,1
+1758110333329,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-14,,true,,361,253,2,3,http://localhost:9966/petclinic/api/vets/111,0,0,0
+1758110333438,78,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,,true,,361,253,2,3,http://localhost:9966/petclinic/api/vets/110,0,0,0
+1758110333580,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-23,text,true,,966,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110333786,81,POST /vets,201,,TG20B_MixedCRUD_Load 5-16,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,81,0,2
+1758110333915,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-15,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110333971,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-14,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110334160,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-23,text,true,,1032,227,1,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110334327,85,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-16,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/112,85,0,0
+1758110334355,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-14,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110334467,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-15,text,true,,1032,227,2,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110334717,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-23,text,true,,1032,227,2,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110334837,77,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,text,true,,393,339,2,4,http://localhost:9966/petclinic/api/vets/112,0,0,0
+1758110334863,77,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-24,text,true,,1033,227,2,4,http://localhost:9966/petclinic/api/vets,77,0,2
+1758110335017,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-15,text,true,,1033,227,2,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110335034,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-23,text,true,,1033,227,2,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110335239,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-24,text,true,,1033,227,1,3,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110335325,74,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,,true,,361,253,2,3,http://localhost:9966/petclinic/api/vets/112,0,0,0
+1758110335575,77,POST /vets,201,,TG20B_MixedCRUD_Load 5-15,text,true,,522,323,2,3,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110335882,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-16,text,true,,1032,227,2,3,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110335906,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-24,text,true,,1032,227,1,3,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110335910,80,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-15,text,true,,497,231,2,3,http://localhost:9966/petclinic/api/vets/113,80,0,0
+1758110336202,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-24,text,true,,1032,227,1,3,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110336199,87,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-16,text,true,,1032,227,2,3,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110336341,79,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,text,true,,393,339,2,3,http://localhost:9966/petclinic/api/vets/113,0,0,0
+1758110336548,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-24,text,true,,1033,227,2,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110336715,83,POST /vets,201,,TG20B_MixedCRUD_Load 5-16,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110336760,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,1099,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,1
+1758110336923,83,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,,true,,361,253,3,4,http://localhost:9966/petclinic/api/vets/113,0,0,0
+1758110337069,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110337125,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-25,text,true,,1032,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,1
+1758110337351,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-16,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/114,82,0,0
+1758110337387,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-15,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110337468,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,1098,227,3,4,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110337686,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-25,text,true,,1098,227,1,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110337766,83,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,1098,227,3,4,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110337794,92,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-15,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/115,91,0,0
+1758110337815,92,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/114,0,0,0
+1758110338077,87,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,1099,227,3,4,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110338286,91,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/115,0,0,0
+1758110338331,90,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-25,text,true,,1100,227,1,4,http://localhost:9966/petclinic/api/vets,90,0,0
+1758110338340,82,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,,true,,361,253,3,4,http://localhost:9966/petclinic/api/vets/114,0,0,0
+1758110338600,83,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,,true,,361,253,3,5,http://localhost:9966/petclinic/api/vets/115,0,0,0
+1758110338654,79,POST /vets,201,,TG20B_MixedCRUD_Load 5-17,text,true,,522,323,3,5,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110338858,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-16,text,true,,1032,227,3,5,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110338939,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-25,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110338954,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-26,text,true,,1032,227,2,5,http://localhost:9966/petclinic/api/vets,89,0,1
+1758110339234,85,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-15,text,true,,1032,227,3,5,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110339299,78,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-17,text,true,,497,231,3,5,http://localhost:9966/petclinic/api/vets/116,78,0,0
+1758110339303,78,POST /vets,201,,TG20B_MixedCRUD_Load 5-16,text,true,,522,323,3,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110339525,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-15,text,true,,1098,227,4,6,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110339585,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-25,text,true,,1098,227,2,6,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110339606,86,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-26,text,true,,1098,227,1,5,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110339636,84,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-17,text,true,,393,339,4,5,http://localhost:9966/petclinic/api/vets/116,0,0,0
+1758110339684,78,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-16,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/117,78,0,0
+1758110339785,79,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,1099,227,4,5,http://localhost:9966/petclinic/api/vets,79,0,1
+1758110339991,83,POST /vets,201,,TG20B_MixedCRUD_Load 5-15,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110340163,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-26,text,true,,1165,227,1,5,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110340191,81,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,text,true,,393,339,4,5,http://localhost:9966/petclinic/api/vets/117,0,0,0
+1758110340242,78,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-17,,true,,361,253,4,5,http://localhost:9966/petclinic/api/vets/116,0,0,0
+1758110340334,78,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-15,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/118,78,0,0
+1758110340378,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,1099,227,4,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110340487,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-26,text,true,,1099,227,2,6,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110340676,85,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,1099,227,4,6,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110340760,79,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,text,true,,393,339,4,6,http://localhost:9966/petclinic/api/vets/118,0,0,0
+1758110340851,80,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,,true,,361,253,4,6,http://localhost:9966/petclinic/api/vets/117,0,0,0
+1758110340872,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-27,text,true,,1033,227,2,6,http://localhost:9966/petclinic/api/vets,82,0,2
+1758110341036,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,1033,227,4,6,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110341043,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-26,text,true,,1033,227,2,6,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110341133,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,1033,227,4,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110341273,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-27,text,true,,1033,227,1,5,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110341330,75,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-15,,true,,361,253,4,5,http://localhost:9966/petclinic/api/vets/118,0,0,0
+1758110341394,89,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-16,text,true,,966,227,4,5,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110341412,102,POST /vets,201,,TG20B_MixedCRUD_Load 5-18,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,102,0,0
+1758110341465,95,POST /vets,201,,TG20B_MixedCRUD_Load 5-17,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,95,0,0
+1758110341821,83,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-18,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/119,83,0,0
+1758110341814,91,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-27,text,true,,1098,227,1,5,http://localhost:9966/petclinic/api/vets,91,0,0
+1758110341867,80,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-16,text,true,,1098,227,4,5,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110341992,82,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-15,text,true,,1098,227,4,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110342070,75,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-17,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/120,75,0,0
+1758110342256,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-18,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/119,0,0,0
+1758110342280,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-27,text,true,,1099,227,1,4,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110342467,85,POST /vets,201,,TG20B_MixedCRUD_Load 5-16,text,true,,522,323,3,5,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110342717,82,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-17,text,true,,393,339,4,6,http://localhost:9966/petclinic/api/vets/120,0,0,0
+1758110342806,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-28,text,true,,1166,227,2,6,http://localhost:9966/petclinic/api/vets,80,0,2
+1758110342840,85,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-27,text,true,,1166,227,2,6,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110342881,83,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-18,,true,,361,253,4,5,http://localhost:9966/petclinic/api/vets/119,0,0,0
+1758110342949,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-16,text,true,,497,231,4,5,http://localhost:9966/petclinic/api/vets/121,76,0,0
+1758110343033,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-19,text,true,,1099,227,4,5,http://localhost:9966/petclinic/api/vets,78,0,2
+1758110343240,92,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-17,,true,,361,253,4,5,http://localhost:9966/petclinic/api/vets/120,0,0,0
+1758110343268,92,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-28,text,true,,1032,227,1,5,http://localhost:9966/petclinic/api/vets,92,0,0
+1758110343296,86,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,1032,227,4,5,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110343447,84,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,text,true,,393,339,4,5,http://localhost:9966/petclinic/api/vets/121,0,0,0
+1758110343606,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-28,text,true,,1033,227,1,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110343685,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-19,text,true,,1033,227,4,5,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110343813,88,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,,true,,361,253,4,5,http://localhost:9966/petclinic/api/vets/121,0,0,0
+1758110343818,85,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-17,text,true,,966,227,4,5,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110343832,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,966,227,3,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110343987,91,POST /vets,201,,TG20B_MixedCRUD_Load 5-19,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,91,0,0
+1758110344039,87,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-28,text,true,,1032,227,1,4,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110344237,76,POST /vets,201,,TG20B_MixedCRUD_Load 5-16,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110344353,81,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,1098,227,3,4,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110344423,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-19,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/122,76,0,0
+1758110344488,77,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-28,text,true,,1098,227,2,5,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110344680,81,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-16,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/123,81,0,0
+1758110344869,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-29,text,true,,1098,227,1,4,http://localhost:9966/petclinic/api/vets,89,0,2
+1758110344888,84,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,1098,227,3,4,http://localhost:9966/petclinic/api/vets,84,0,0
+1758110344897,85,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-19,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/122,0,0,0
+1758110345243,86,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/123,0,0,0
+1758110345258,85,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-19,,true,,361,253,3,4,http://localhost:9966/petclinic/api/vets/122,0,0,0
+1758110345523,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-18,text,true,,522,323,4,5,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110345527,80,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-29,text,true,,1099,227,1,5,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110345832,89,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-29,text,true,,1099,227,1,5,http://localhost:9966/petclinic/api/vets,89,0,0
+1758110345853,87,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-16,,true,,361,253,4,5,http://localhost:9966/petclinic/api/vets/123,0,0,0
+1758110345874,91,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-19,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,90,0,0
+1758110345907,102,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-20,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,102,0,1
+1758110345977,89,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-18,text,true,,497,231,3,4,http://localhost:9966/petclinic/api/vets/124,89,0,0
+1758110346332,102,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-19,text,true,,1032,227,3,4,http://localhost:9966/petclinic/api/vets,102,0,0
+1758110346343,98,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-18,text,true,,393,339,3,4,http://localhost:9966/petclinic/api/vets/124,0,0,0
+1758110346406,92,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-29,text,true,,1033,227,1,4,http://localhost:9966/petclinic/api/vets,92,0,0
+1758110346561,81,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-20,text,true,,1033,227,3,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110346790,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-29,text,true,,1033,227,2,5,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110346875,87,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-20,text,true,,1033,227,3,4,http://localhost:9966/petclinic/api/vets,87,0,0
+1758110346904,86,POST /vets,201,,TG20B_MixedCRUD_Load 5-19,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,86,0,0
+1758110346935,83,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-18,,true,,361,253,3,4,http://localhost:9966/petclinic/api/vets/124,0,0,0
+1758110347081,84,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-30,text,true,,1032,227,1,4,http://localhost:9966/petclinic/api/vets,84,0,2
+1758110347184,74,POST /vets,201,,TG20B_MixedCRUD_Load 5-20,text,true,,522,323,3,4,http://localhost:9966/petclinic/api/vets,74,0,0
+1758110347270,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-18,text,true,,1098,227,3,4,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110347487,82,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-20,text,true,,497,231,2,3,http://localhost:9966/petclinic/api/vets/126,82,0,0
+1758110347520,78,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-19,text,true,,497,231,2,3,http://localhost:9966/petclinic/api/vets/125,78,0,0
+1758110347573,79,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-30,text,true,,1098,227,1,3,http://localhost:9966/petclinic/api/vets,79,0,0
+1758110347895,82,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-19,text,true,,393,339,2,3,http://localhost:9966/petclinic/api/vets/125,0,0,0
+1758110347932,81,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,text,true,,393,339,2,3,http://localhost:9966/petclinic/api/vets/126,0,0,0
+1758110348063,83,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-30,text,true,,1100,227,1,3,http://localhost:9966/petclinic/api/vets,83,0,0
+1758110348324,80,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-19,,true,,361,253,2,3,http://localhost:9966/petclinic/api/vets/125,0,0,0
+1758110348373,78,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,,true,,361,253,2,3,http://localhost:9966/petclinic/api/vets/126,0,0,0
+1758110348509,82,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-30,text,true,,966,227,1,3,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110348657,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-20,text,true,,522,323,2,3,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110348745,76,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-19,text,true,,1032,227,2,3,http://localhost:9966/petclinic/api/vets,75,0,0
+1758110349002,81,GET /vets (read-only),200,,TG20A_ReadOnly_Load 4-30,text,true,,1032,227,1,3,http://localhost:9966/petclinic/api/vets,81,0,0
+1758110349155,81,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-20,text,true,,497,231,2,2,http://localhost:9966/petclinic/api/vets/127,81,0,0
+1758110349288,85,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-19,text,true,,1032,227,2,2,http://localhost:9966/petclinic/api/vets,85,0,0
+1758110349529,83,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,text,true,,393,339,2,2,http://localhost:9966/petclinic/api/vets/127,0,0,0
+1758110349967,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-19,text,true,,1033,227,2,2,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110350190,81,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,,true,,361,253,1,1,http://localhost:9966/petclinic/api/vets/127,0,0,0
+1758110350766,76,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-20,text,true,,966,227,1,1,http://localhost:9966/petclinic/api/vets,76,0,0
+1758110351208,82,POST /vets,201,,TG20B_MixedCRUD_Load 5-20,text,true,,522,323,1,1,http://localhost:9966/petclinic/api/vets,82,0,0
+1758110351742,76,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-20,text,true,,497,231,1,1,http://localhost:9966/petclinic/api/vets/128,76,0,0
+1758110352248,77,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,text,true,,393,339,1,1,http://localhost:9966/petclinic/api/vets/128,0,0,0
+1758110352638,79,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,,true,,361,253,1,1,http://localhost:9966/petclinic/api/vets/128,0,0,0
+1758110353115,77,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-20,text,true,,966,227,1,1,http://localhost:9966/petclinic/api/vets,77,0,0
+1758110353525,78,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-20,text,true,,966,227,1,1,http://localhost:9966/petclinic/api/vets,78,0,0
+1758110353922,80,POST /vets,201,,TG20B_MixedCRUD_Load 5-20,text,true,,522,323,1,1,http://localhost:9966/petclinic/api/vets,80,0,0
+1758110354546,77,GET /vets/{id},200,,TG20B_MixedCRUD_Load 5-20,text,true,,497,231,1,1,http://localhost:9966/petclinic/api/vets/129,77,0,0
+1758110354878,84,PUT /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,text,true,,393,339,1,1,http://localhost:9966/petclinic/api/vets/129,0,0,0
+1758110355515,79,DELETE /vets/{id},204,,TG20B_MixedCRUD_Load 5-20,,true,,361,253,1,1,http://localhost:9966/petclinic/api/vets/129,0,0,0
+1758110355932,76,GET /vets (list),200,,TG20B_MixedCRUD_Load 5-20,text,true,,966,227,1,1,http://localhost:9966/petclinic/api/vets,76,0,0
