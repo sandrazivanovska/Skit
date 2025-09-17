@@ -16,21 +16,31 @@ Feature: List Vets API (GET /vets)
     Given path 'vets'
     When method GET
 
-    # 2) If any vets exist (status 200), delete them all
-    * if (responseStatus == 200) eval
+    # 2) Collect vet IDs (empty if no vets)
+    * def vetIds = responseStatus == 200 ? response.map(x => x.id) : []
+
+    # 3) Delete them all by calling the tagged scenario in THIS file
+    * eval
     """
-    var ids = response.map(function(v){ return v.id; });
+    var ids = vetIds;
     ids.forEach(function(id){
       karate.log('Deleting vet:', id);
-      karate.call({
-        method: 'DELETE',
-        url: baseUrl + '/vets/' + id,
-        headers: { Authorization: headers.Authorization }
-      });
+      karate.call('classpath:karate/vets/VetAllGet.feature@deleteOneVet', { id: id });
     });
     """
 
-    # 3) Verify no vets remain
+    # 4) Verify no vets remain
     Given path 'vets'
     When method GET
     Then status 404
+
+
+  @deleteOneVet
+  @skip
+  Scenario: Delete a single vet (callable)
+    * url baseUrl
+    * header Authorization = headers.Authorization
+    * header Content-Type = headers['Content-Type']
+    Given path 'vets', id
+    When method DELETE
+    Then assert responseStatus == 204 || responseStatus == 404

@@ -1,4 +1,4 @@
-package karate.vets;
+package karate.pets;
 
 import com.intuit.karate.junit5.Karate;
 

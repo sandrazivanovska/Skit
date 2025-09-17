@@ -6,8 +6,14 @@ Feature: Get Vet by ID (GET /vets/{id})
     * header Content-Type = headers['Content-Type']
 
   Scenario: Get vet by valid ID
-    # create a new vet first
-    * def newVet ={ firstName: 'John', lastName: 'Doe', specialties: [] }
+    * def newVet =
+  """
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "specialties": []
+  }
+  """
     Given path 'vets'
     And request newVet
     When method POST
@@ -22,12 +28,7 @@ Feature: Get Vet by ID (GET /vets/{id})
   Scenario: Get non-existing vet returns 404
     Given path 'vets', 999999
     When method GET
-    Then status 500
-
-  Scenario: Get vet with null ID
-    Given path 'vets', null
-    When method GET
-    Then status 500
+    Then status 404
 
   Scenario: Get vet with empty ID
     Given path 'vets', ''

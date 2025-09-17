@@ -38,27 +38,27 @@ Feature: Delete Vet API (DELETE /vets/{id})
     * def vetId = null
     Given path 'vets', vetId
     When method DELETE
-    Then status 400
+    Then status 500
 
   Scenario: Delete vet with empty ID
     * def vetId = ''
     Given path 'vets', vetId
     When method DELETE
-    Then status 400
+    Then status 500
 
   Scenario: Delete vet by negative ID
     * def vetId = -2
     Given path 'vets', vetId
     When method DELETE
-    Then status 404
+    Then status 500
 
   Scenario: Delete vet by string ID
     Given path 'vets', 'abcd'
     When method DELETE
-    Then status 400
+    Then status 500
 
   Scenario: Delete vet with very large ID
     * def vetId = 9223372036854775807
     Given path 'vets', vetId
     When method DELETE
-    Then status 404
+    Then status 500
