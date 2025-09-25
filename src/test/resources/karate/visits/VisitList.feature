@@ -26,7 +26,6 @@ Scenario: List visits without authentication returns 200 (API doesn't require au
   Then status 200
   * match response == '#[]'
 
-# String where integer path param is expected -> type mismatch (500)
 Scenario: List visits with malformed URL returns 500 (MethodArgumentTypeMismatchException)
   Given path 'visits', 'invalid'
   When method GET
@@ -47,7 +46,6 @@ Scenario: List visits with extra path segments returns 500 (NoResourceFoundExcep
   * match response contains { title: 'NoResourceFoundException' }
   * match response.detail contains 'No static resource'
 
-# Petclinic doesn't implement filtering like ?limit=, but it still responds 200
 Scenario: List visits with query parameters returns 200
   Given path 'visits'
   And param limit = 10

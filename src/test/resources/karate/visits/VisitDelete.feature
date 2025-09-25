@@ -5,7 +5,6 @@ Background:
   * header Authorization = headers.Authorization
   * header Content-Type = headers['Content-Type']
 
-# Happy path: create a visit, delete it, then ensure it's gone
 Scenario: Delete visit successfully returns 204 then 404 when deleted again
   # create a visit to delete
   Given path 'visits'
@@ -60,7 +59,6 @@ Scenario: Delete visit with non-existent ID returns 404
   When method DELETE
   Then status 404
 
-# These two auth scenarios are fine *if* the id exists; seed one first.
 Scenario: Delete visit with invalid authentication still returns 204 (endpoint is open)
   # seed
   Given path 'visits'
@@ -75,7 +73,6 @@ Scenario: Delete visit with invalid authentication still returns 204 (endpoint i
   Then status 204
 
 Scenario: Delete visit without authentication returns 204
-  # seed
   Given path 'visits'
   And request { date: '2024-03-03', description: 'no auth test', petId: 1 }
   When method POST

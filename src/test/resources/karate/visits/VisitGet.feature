@@ -5,7 +5,6 @@ Background:
   * header Authorization = headers.Authorization
   * header Content-Type = headers['Content-Type']
 
-# Happy path using seeded data in Petclinic (visits 1..4 exist)
 Scenario: Get visit successfully returns 200 with valid ID
   Given path 'visits', 1
   When method GET
@@ -30,12 +29,6 @@ Scenario: Get visit with zero ID returns 404
   Given path 'visits', 0
   When method GET
   Then status 404
-
-# REMOVE the 'null ID' case from this file (it is a list call). If you want to check it:
-# Given path 'visits'
-# When method GET
-# Then status 200
-# * match response == '#[]'  # array
 
 Scenario: Get visit with string ID returns 500 (MethodArgumentTypeMismatchException)
   Given path 'visits', 'invalid'

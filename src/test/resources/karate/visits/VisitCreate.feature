@@ -50,7 +50,6 @@ Scenario: Malformed JSON -> 500 HttpMessageNotReadableException
   Then status 500
   * match response.title == 'HttpMessageNotReadableException'
 
-# In this API, sending text/plain still succeeds (Jackson can parse)
 Scenario: Wrong content type still accepted -> 201
   Given path 'visits'
   And request { date: '2024-01-15', description: 'Regular checkup', petId: 1 }
