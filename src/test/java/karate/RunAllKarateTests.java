@@ -1,10 +1,10 @@
-package karate.specialties;
+package karate;
 
 import com.intuit.karate.junit5.Karate;
 
-class RunAllSpecialtyTests {
+class RunAllKarateTests {
     @Karate.Test
-    Karate runAll() {
+    Karate runAllTests() {
         return Karate.run().relativeTo(getClass());
     }
 }

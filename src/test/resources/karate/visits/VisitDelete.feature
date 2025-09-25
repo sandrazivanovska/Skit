@@ -6,19 +6,16 @@ Background:
   * header Content-Type = headers['Content-Type']
 
 Scenario: Delete visit successfully returns 204 then 404 when deleted again
-  # create a visit to delete
   Given path 'visits'
   And request { date: '2024-03-01', description: 'to delete', petId: 1 }
   When method POST
   Then status 201
   * def visitId = response.id
 
-  # delete -> 204
   Given path 'visits', visitId
   When method DELETE
   Then status 204
 
-  # delete again -> 404
   Given path 'visits', visitId
   When method DELETE
   Then status 404
@@ -27,8 +24,6 @@ Scenario: Delete visit with zero ID returns 404 (id=0 doesn't exist)
   Given path 'visits', 0
   When method DELETE
   Then status 404
-
-# REMOVE the "null ID" case – it is actually "no id" and maps to 500, see next test.
 
 Scenario: Delete visit without ID in path -> 500 HttpRequestMethodNotSupportedException
   Given path 'visits'
@@ -60,7 +55,6 @@ Scenario: Delete visit with non-existent ID returns 404
   Then status 404
 
 Scenario: Delete visit with invalid authentication still returns 204 (endpoint is open)
-  # seed
   Given path 'visits'
   And request { date: '2024-03-02', description: 'auth test', petId: 1 }
   When method POST

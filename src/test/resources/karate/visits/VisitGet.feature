@@ -6,14 +6,31 @@ Background:
   * header Content-Type = headers['Content-Type']
 
 Scenario: Get visit successfully returns 200 with valid ID
-  Given path 'visits', 1
+  Given path 'owners'
+  And request { firstName: 'Visit', lastName: 'Getter', address: '123 Main St', city: 'Testville', telephone: '5551111' }
+  When method POST
+  Then status 201
+  * def ownerId = response.id
+
+  Given path 'owners', ownerId, 'pets'
+  And request { name: 'PetForVisit', birthDate: '2021-05-01', type: { id: 1, name: 'cat' } }
+  When method POST
+  Then status 201
+  * def petId = response.id
+
+  Given path 'visits'
+  And request { date: '2024-09-15', description: 'Checkup Visit', petId: petId }
+  When method POST
+  Then status 201
+  * def visitId = response.id
+
+  Given path 'visits', visitId
   When method GET
   Then status 200
   * match response ==
   """
-  { id: 1, date: '#string', description: '#string', petId: '#number' }
+  { id: #(visitId), date: '#string', description: '#string', petId: #(petId) }
   """
-
 Scenario: Get visit with non-existent ID returns 404
   Given path 'visits', 999999
   When method GET

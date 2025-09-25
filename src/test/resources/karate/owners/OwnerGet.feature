@@ -6,15 +6,22 @@ Feature: Get Owner API (GET /owners/{id})
     * header Content-Type = headers['Content-Type']
 
   Scenario: Get owner successfully returns 200 with valid ID
-    Given path 'owners', 5
+    Given path 'owners'
+    And request { firstName: 'John', lastName: 'Doe', address: '123 Main St', city: 'Testville', telephone: '5551234' }
+    When method POST
+    Then status 201
+    * def ownerId = response.id
+
+    Given path 'owners', ownerId
     When method GET
     Then status 200
-    * assert response.id == 5
+    * assert response.id == ownerId
     * assert response.firstName != null
     * assert response.lastName != null
     * assert response.address != null
     * assert response.city != null
     * assert response.telephone != null
+
 
   Scenario: Get owner with non-existent ID returns 404
     Given path 'owners', 999999
