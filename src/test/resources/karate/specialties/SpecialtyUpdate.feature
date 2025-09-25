@@ -6,20 +6,17 @@ Feature: Update Specialty API (PUT /specialties/{id})
     * header Content-Type = headers['Content-Type']
 
   Scenario: Update specialty successfully returns 204 with valid data
-    # First, create a specialty to update
     Given path 'specialties'
     And request { name: 'Original Specialty' }
     When method POST
     Then status 201
     * def specialtyId = response.id
-    
-    # Now update the specialty
+
     Given path 'specialties', specialtyId
     And request { id: specialtyId, name: 'Updated Specialty' }
     When method PUT
     Then status 204
-    
-    # Verify the update by getting the specialty
+
     Given path 'specialties', specialtyId
     When method GET
     Then status 200
@@ -62,70 +59,60 @@ Feature: Update Specialty API (PUT /specialties/{id})
     Then status 404
 
   Scenario: Update specialty with empty name returns 400
-    # First, create a specialty to update
     Given path 'specialties'
     And request { name: 'Test Specialty' }
     When method POST
     Then status 201
     * def specialtyId = response.id
-    
-    # Try to update with empty name
+
     Given path 'specialties', specialtyId
     And request { id: specialtyId, name: '' }
     When method PUT
     Then status 400
 
   Scenario: Update specialty with null name returns 400
-    # First, create a specialty to update
     Given path 'specialties'
     And request { name: 'Test Specialty' }
     When method POST
     Then status 201
     * def specialtyId = response.id
-    
-    # Try to update with null name
+
     Given path 'specialties', specialtyId
     And request { id: specialtyId, name: null }
     When method PUT
     Then status 400
 
   Scenario: Update specialty without name field returns 400
-    # First, create a specialty to update
     Given path 'specialties'
     And request { name: 'Test Specialty' }
     When method POST
     Then status 201
     * def specialtyId = response.id
-    
-    # Try to update without name field
+
     Given path 'specialties', specialtyId
     And request { id: specialtyId }
     When method PUT
     Then status 400
 
   Scenario: Update specialty with very long name returns 400
-    # First, create a specialty to update
     Given path 'specialties'
     And request { name: 'Test Specialty' }
     When method POST
     Then status 201
     * def specialtyId = response.id
-    
-    # Try to update with very long name
+
     Given path 'specialties', specialtyId
     And request { id: specialtyId, name: 'A'.repeat(1000) }
     When method PUT
     Then status 400
 
   Scenario: Update specialty with whitespace only name returns 400
-    # First, create a specialty to update
     Given path 'specialties'
     And request { name: 'Test Specialty' }
     When method POST
     Then status 201
     * def specialtyId = response.id
-    
-    # Try to update with whitespace only name
+
     Given path 'specialties', specialtyId
     And request { id: specialtyId, name: '   ' }
     When method PUT

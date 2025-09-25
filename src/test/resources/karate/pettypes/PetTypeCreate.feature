@@ -60,14 +60,12 @@ Feature: Create Pet Type API (POST /pettypes)
     * assert response.name == '123'
 
   Scenario: Create pet type with duplicate name returns 201 (API allows duplicates)
-    # First create a pet type
     Given path 'pettypes'
     And request { name: 'Duplicate Name' }
     When method POST
     Then status 201
     * def firstId = response.id
-    
-    # Try to create another with same name
+
     Given path 'pettypes'
     And request { name: 'Duplicate Name' }
     When method POST

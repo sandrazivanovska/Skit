@@ -6,14 +6,12 @@ Feature: Get Specialty API (GET /specialties/{id})
     * header Content-Type = headers['Content-Type']
 
   Scenario: Get specialty successfully returns 200 with valid ID
-    # First, create a specialty to test with
     Given path 'specialties'
     And request { name: 'Test Specialty' }
     When method POST
     Then status 201
     * def specialtyId = response.id
-    
-    # Now test getting the created specialty
+
     Given path 'specialties', specialtyId
     When method GET
     Then status 200

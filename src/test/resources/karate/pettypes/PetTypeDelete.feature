@@ -6,7 +6,13 @@ Feature: Delete Pet Type API (DELETE /pettypes/{id})
     * header Content-Type = headers['Content-Type']
 
   Scenario: Delete pet type successfully returns 204 with valid ID
-    Given path 'pettypes', 13
+    Given path 'pettypes'
+    And request { name: 'newPetType' }
+    When method POST
+    Then status 201
+    * def petTypeId = response.id
+
+    Given path 'pettypes', petTypeId
     When method DELETE
     Then status 204
 
@@ -42,14 +48,26 @@ Feature: Delete Pet Type API (DELETE /pettypes/{id})
     When method DELETE
     Then status 404
 
-  Scenario: Delete pet type with invalid authentication returns 204 (API doesn't require auth)
-    Given path 'pettypes', 14
+  Scenario: Delete pet type with invalid authentication still returns 204 (API doesn't require auth)
+    Given path 'pettypes'
+    And request { name: 'NewPetType' }
+    When method POST
+    Then status 201
+    * def petTypeId = response.id
+
+    Given path 'pettypes', petTypeId
     * header Authorization = 'Basic invalid_credentials'
     When method DELETE
     Then status 204
 
-  Scenario: Delete pet type without authentication returns 204 (API doesn't require auth)
-    Given path 'pettypes', 14
+  Scenario: Delete pet type without authentication still returns 204 (API doesn't require auth)
+    Given path 'pettypes'
+    And request { name: 'petType' }
+    When method POST
+    Then status 201
+    * def petTypeId = response.id
+
+    Given path 'pettypes', petTypeId
     * header Authorization = null
     When method DELETE
     Then status 204
@@ -69,6 +87,16 @@ Feature: Delete Pet Type API (DELETE /pettypes/{id})
     * assert response.detail.indexOf('No static resource') >= 0
 
   Scenario: Delete already deleted pet type returns 404
-    Given path 'pettypes', 16
+    Given path 'pettypes'
+    And request { name: 'petDeleted' }
+    When method POST
+    Then status 201
+    * def petTypeId = response.id
+
+    Given path 'pettypes', petTypeId
+    When method DELETE
+    Then status 204
+
+    Given path 'pettypes', petTypeId
     When method DELETE
     Then status 404
